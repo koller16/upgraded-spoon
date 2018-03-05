@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Party Planner</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all,follow">
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
+    <!-- Font Awesome CSS-->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <!-- Fontastic-->
+    <link rel="stylesheet" href="assets/css/fontastic.css">
+    <!-- Bootstrap Select-->
+    <link rel="stylesheet" href="assets/vendor/bootstrap-select/css/bootstrap-select.css">
+    <!-- Google fonts - Poppins-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,700">
+    <!-- swiper carousel-->
+    <link rel="stylesheet" href="assets/vendor/swiper/css/swiper.css">
+    <!-- Gallery-->
+    <link rel="stylesheet" href="assets/css/gallery.css">
+    <!-- theme stylesheet-->
+    <link rel="stylesheet" href="assets/css/style.css" id="theme-stylesheet">
+    <!-- Custom stylesheet - for your changes-->
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="assets/img/favicon.ico">
+    <!-- Modernizr-->
+    <script src="assets/js/modernizr.custom.js"></script>
+    <!-- Tweaks for older IEs-->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+</head>
+
+<body>
+    <!-- navbar-->
+    <header id="ob-head" class="header">
+        <!-- load ob-head.html -->
+    </header>
+    <!-- Hero Section-->
+    <section class="hero-page bg-black-3">
+        <div class="container">
+            <h1 class="h2">Solicita tu Presupuesto</h1>
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item">
+                        <a href="index.html">Inicio</a>
+                    </li>
+                    <li aria-current="page" class="breadcrumb-item active">Pedir presupuesto</li>
+                </ol>
+            </nav>
+        </div>
+    </section>
+    <section class="submit-business bg-black-4 pb-5">
+        <div class="container">
+            <div class="row flex-md-row-reverse">
+                <div class="col-lg-6 mt-5 mt-lg-0 bg-black-5 pt-3">
+                    <header class="text-center">
+                        <h2>Solicitud de
+                            <span class="text-primary">Presupuesto</span>
+                        </h2>
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <p class="template-text">Presupuesto, gratis y sin compromiso.</p>
+                            </div>
+                        </div>
+                    </header>
+                    <form action="#" class="login-form">
+                        <div class="row">
+                            <div class="form-group col-md-6">
+                                <input type="text" name="need" placeholder="Carpa" class="form-control">
+                                <small>¿Que necesitas?</small>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <select id="types" name="event-type" class="selectpicker">
+                                    <option value="#">Selecciona una opción</option>
+                                    <option value="boda">Boda</option>
+                                    <option value="soltero">Despedida de soltero</option>
+                                    <option value="empresa">Evento de empresa</option>
+                                    <option value="infantil">Evento infantil</option>
+                                    <option value="grad">Graduaciones</option>
+                                    <option value="congresos">Ferias y congresos</option>
+                                    <option value="familiares">Celebraciones familiares</option>
+                                    <option value="otros">Otros eventos y celebraciones</option>
+                                </select>
+                                <small>Tipo de evento</small>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-group col-md-6">
+                                <input type="number" name="address" placeholder="ej. 30" class="form-control">
+                                <small>Cuantos invitados / asistentes</small>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <input type="date" name="eventday" class="form-control grey-1">
+                                <small>Día del evento</small>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <select id="types" name="types" class="selectpicker">
+                                <option value="ciudad1">Ciudad 1</option>
+                                <option value="ciudad2">Ciudad 2</option>
+                                <option value="ciudad3">Ciudad 3</option>
+                                <option value="ciudad4">Ciudad 4</option>
+                            </select>
+                            <small>¿Donde será el evento?</small>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="description" placeholder="Incluye toda la información que puedas sobre el servicio que necesitas. No introduzcas tus datos de contacto aqui para proteger tu privacidad."
+                                class="form-control radius-sm"></textarea>
+                            <small>Detalles del evento (Mínimo 15 caracteres)</small>
+                        </div>
+                        <div class="row">
+                            <div class="form-group col-md-6">
+                                <input type="text" name="name" placeholder="Nombre completo" class="form-control">
+                                <small>Nombre del contacto</small>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <input type="tel" name="telephone" placeholder="123-123-1234" class="form-control">
+                                <small>Teléfono de contacto</small>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="email@domain.com" class="form-control">
+                            <small>email de contacto</small>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <div class="form-group">
+                                <label for="terms" class="label-template-checkbox m-2">Acepto los
+                                    <a href="#">Términos y Condiciones</a>
+                                    <input type="checkbox" name="terms" id="terms">
+                                </label>
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-gradient">Solicitar Presupuesto</button>
+                            </div>
+                        </div>
+                    </form>
+                    <hr class="line d-md-block d-lg-none">
+                </div>
+                <div class="col-lg-6">
+                    <h3 class="has-line">Presupuesta con las mejores empresas</h3>
+                    <ul class="ob-list">
+                        <li>
+                            <p>1 · Cuéntanos
+                                <span class="text-primary">que necesitas</span>
+                            </p>
+                        </li>
+                        <li>
+                            <p>2 · Recibe hasta
+                                <span class="text-primary">4 presupuestos</span>
+                            </p>
+                        </li>
+                        <li>
+                            <p>3 · Compara ofertas y
+                                <span class="text-primary">elige la mejor</span>
+                            </p>
+                        </li>
+                    </ul>
+                    <hr class="line">
+                    <div class="row">
+                        <div class="col-6 d-none d-sm-block">
+                            <div class="p-4">
+                                <i class="fas fa-clipboard-list text-primary big-icon"></i>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div>
+                                <h3 class="h3 text-thin">
+                                    <i class="fas fa-tags text-primary"></i> Es gratis</h3>
+                                <p>Recibe varios presupuestos de forma gratuita y sin compromiso.</p>
+                            </div>
+                            <div>
+                                <h3 class="h3 text-thin">
+                                    <i class="far fa-clock text-primary"></i> Ahorra tiempo</h3>
+                                <p>No pierdas tiempo buscando empresas. Ellas te contactan a ti.</p>
+                            </div>
+                            <div>
+                                <h3 class="h3 text-thin">
+                                    <i class="far fa-money-bill-alt text-primary"></i> Ahorra dinero</h3>
+                                <p>Podrás comparar más de un presupuesto.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- How It Works Section -->
+    <section class="bg-black-4">
+        <div class="container">
+            <header class="text-center">
+                <h2>Pide tu presupuesto
+                    <span class="text-primary">Gratis</span>
+                </h2>
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <p class="template-text">Como funciona el proceso de pedir presupuestos.</p>
+                    </div>
+                </div>
+            </header>
+            <div class="card-group">
+                <div class="card rounded-0 bg-black-3">
+                    <img class="card-img-top icon" src="assets/img/mailout.svg" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title has-line">1. Pide tu presupuesto Gratis</h5>
+                        <p class="card-text">Llena un formulario donde nos explicas lo que buscas o lo necesitas y nosotros te conectamos con
+                            los mejores profesionales y empresas de tu zona.
+                        </p>
+                    </div>
+                </div>
+                <div class="card rounded-0 bg-black-3">
+                    <img class="card-img-top icon" src="assets/img/mail4.svg" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title has-line">2. Recibe hasta 4 ofertas</h5>
+                        <p class="card-text">Las empresas y profesionales de tu zona que se ajusten mejor a tus necesidades se pondrán en contacto
+                            contigo y te aran llegar los presupuestos.
+                        </p>
+                    </div>
+                </div>
+                <div class="card rounded-0 bg-black-3">
+                    <img class="card-img-top icon" src="assets/img/winner.svg" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title has-line">3. Elige la mejor oferta</h5>
+                        <p class="card-text">Evalúa los presupuestos que recibiste de distintos profesionales y escoge el que mejor se ajuste
+                            a lo que estas buscando.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row my-4">
+                <a href="#" class="btn btn-gradient mx-auto">Pide presupuesto gratis</a>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer class="footer bg-black-5" id="ob-foot">
+        <!-- load ob-foot.html -->
+    </footer>
+    <!-- Javascript files-->
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/ob-load.js"></script>
+    <script src="assets/vendor/popper.js/umd/popper.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/vendor/bootstrap-select/js/bootstrap-select.js"></script>
+    <script src="assets/vendor/jquery.cookie/jquery.cookie.js"></script>
+    <script src="assets/vendor/swiper/js/swiper.js"></script>
+    <script src="assets/js/front.js"></script>
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID.-->
+    <!---->
+    <script>
+        (function (b, o, i, l, e, r) {
+            b.GoogleAnalyticsObject = l;
+            b[l] || (b[l] =
+                function () {
+                    (b[l].q = b[l].q || []).push(arguments)
+                });
+            b[l].l = +new Date;
+            e = o.createElement(i);
+            r = o.getElementsByTagName(i)[0];
+            e.src = '//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e, r)
+        }(window, document, 'script', 'ga'));
+        ga('create', 'UA-XXXXX-X');
+        ga('send', 'pageview');
+    </script>
+</body>
+
+</html>

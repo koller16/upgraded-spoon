@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Party Planner</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all,follow">
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
+    <!-- Font Awesome CSS-->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <!-- Fontastic-->
+    <link rel="stylesheet" href="assets/css/fontastic.css">
+    <!-- Bootstrap Select-->
+    <link rel="stylesheet" href="assets/vendor/bootstrap-select/css/bootstrap-select.css">
+    <!-- Google fonts - Poppins-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,700">
+    <!-- swiper carousel-->
+    <link rel="stylesheet" href="assets/vendor/swiper/css/swiper.css">
+    <!-- Gallery-->
+    <link rel="stylesheet" href="assets/css/gallery.css">
+    <!-- theme stylesheet-->
+    <link rel="stylesheet" href="assets/css/style.css" id="theme-stylesheet">
+    <!-- Custom stylesheet - for your changes-->
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="assets/img/favicon.ico">
+    <!-- Modernizr-->
+    <script src="assets/js/modernizr.custom.js"></script>
+    <!-- Tweaks for older IEs-->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+</head>
+
+<body>
+    <!-- navbar-->
+    <header id="ob-head" class="header">
+        <!-- load ob-head.html -->
+    </header>
+    <!-- Hero Section-->
+    <section class="business-grid-sidebar bg-black-3">
+        <div class="container">
+            <h1 class="h2">Buscar Empresas</h1>
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item">
+                        <a href="index.html">Inicio</a>
+                    </li>
+                    <li class="breadcrumb-item active">
+                        <a href="business.html">Empresas</a>
+                    </li>
+                </ol>
+            </nav>
+            <!-- Search Section-->
+            <section class="search-business py-3 bg-black-3">
+                <div class="container px-0">
+                    <form action="#">
+                        <div class="row">
+                            <div class="form-group col-md-9 col-lg-7">
+                                <input type="text" name="keyword_search" placeholder="Estoy buscando..." class="form-control">
+                            </div>
+                            <div class="form-group col-md-3 col-lg-3">
+                                <select id="searchActions" name="search_actions" class="selectpicker">
+                                    <option value="">¿Dónde?</option>
+                                    <option value="cancun">Cancún</option>
+                                    <option value="campeche">Campeche</option>
+                                    <option value="merida">Mérida</option>
+                                    <option value="mexico">México</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-lg-2">
+                                <button type="submit" class="submit btn btn-gradient full-width">Buscar</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </section>
+            <!-- Filters-->
+            <div class="filter d-flex justify-content-between align-items-center flex-wrap mt-0">
+                <div class="sort d-flex align-items-center">
+                    <strong>Catering en Mérida</strong>
+                </div>
+                <div class="view d-flex align-items-center">
+                    <strong>Vista</strong>
+                    <ul class="list-inline mb-0">
+                        <li class="list-inline-item">
+                            <a href="find-business.html" class="">
+                                <i class="fas fa-th-large"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="find-business-list.html" class="active">
+                                <i class="fas fa-th-list"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <!-- business Listings-->
+                <div class="business-listing col-lg-8">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="business-listing-item">
+                                <div class="row align-items-stretch">
+                                    <div class="col-md-6 pr-md-0 my-auto">
+                                        <div class="image">
+                                            <a href="#">
+                                                <img class="img-fluid" alt=" The Chalet Estate" src="assets/img/card-image.png">
+                                                <div class="platinum">Platinum</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 pl-md-0">
+                                        <div class="inner bg-black-2 d-flex justify-content-center flex-column pd-lg-0">
+                                            <div class="info">
+                                                <a class="no-anchor-style" href="business-profile.html">
+                                                    <h3 class="h3 text-thin m-0">Nombre de la Empresa</h3>
+                                                    <small class="m-0 p-0">Categoría | Estado</small>
+                                                </a>
+                                                <p class="description mt-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque fringilla
+                                                    ligula gravida feugiat suscipit. </p>
+                                            </div>
+                                            <div class="footer align-items-center">
+                                                <a class="btn btn-gradient full-width" href="">Pedir Presupuesto</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="business-listing-item">
+                                <div class="row align-items-stretch">
+                                    <div class="col-md-6 pr-md-0 my-auto">
+                                        <div class="image">
+                                            <a href="#">
+                                                <img class="img-fluid" alt=" The Chalet Estate" src="assets/img/card-image.png">
+                                                <div class="gold">Gold</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 pl-md-0">
+                                        <div class="inner bg-black-2 d-flex justify-content-center flex-column pd-lg-0">
+                                            <div class="info">
+                                                <a class="no-anchor-style" href="business-profile.html">
+                                                    <h3 class="h3 text-thin m-0">Nombre de la Empresa</h3>
+                                                    <small class="m-0 p-0">Categoría | Estado</small>
+                                                </a>
+                                                <p class="description mt-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque fringilla
+                                                    ligula gravida feugiat suscipit. </p>
+                                            </div>
+                                            <div class="footer align-items-center">
+                                                <a class="btn btn-gradient full-width" href="">Pedir Presupuesto</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="business-listing-item">
+                                <div class="row align-items-stretch">
+                                    <div class="col-md-6 pr-md-0 my-auto">
+                                        <div class="image">
+                                            <a href="business-profile.html">
+                                                <img class="img-fluid" alt=" The Chalet Estate" src="assets/img/card-image.png">
+
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 pl-md-0">
+                                        <div class="inner bg-black-2 d-flex justify-content-center flex-column pd-lg-0">
+                                            <div class="info">
+                                                <a class="no-anchor-style" href="business-profile.html">
+                                                    <h3 class="h3 text-thin m-0">Nombre de la Empresa</h3>
+                                                    <small class="m-0 p-0">Categoría | Estado</small>
+                                                </a>
+                                                <p class="description mt-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque fringilla
+                                                    ligula gravida feugiat suscipit. </p>
+                                            </div>
+                                            <div class="footer align-items-center">
+                                                <a class="btn btn-gradient full-width" href="">Pedir Presupuesto</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="business-listing-item">
+                                <div class="row align-items-stretch">
+                                    <div class="col-md-6 pr-md-0 my-auto">
+                                        <div class="image">
+                                            <a href="business-profile.html">
+                                                <img class="img-fluid" alt=" The Chalet Estate" src="assets/img/card-image.png">
+                                                <div class="platinum">Platinum</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 pl-md-0">
+                                        <div class="inner bg-black-2 d-flex justify-content-center flex-column pd-lg-0">
+                                            <div class="info">
+                                                <a class="no-anchor-style" href="business-profile.html">
+                                                    <h3 class="h3 text-thin m-0">Nombre de la Empresa</h3>
+                                                    <small class="m-0 p-0">Categoría | Estado</small>
+                                                </a>
+                                                <p class="description mt-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque fringilla
+                                                    ligula gravida feugiat suscipit. </p>
+                                            </div>
+                                            <div class="footer align-items-center">
+                                                <a class="btn btn-gradient full-width" href="">Pedir Presupuesto</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="business-listing-item">
+                                <div class="row align-items-stretch">
+                                    <div class="col-md-6 pr-md-0 my-auto">
+                                        <div class="image">
+                                            <a href="business-profile.html">
+                                                <img class="img-fluid" alt=" The Chalet Estate" src="assets/img/card-image.png">
+                                                <div class="platinum">Platinum</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 pl-md-0">
+                                        <div class="inner bg-black-2 d-flex justify-content-center flex-column pd-lg-0">
+                                            <div class="info">
+                                                <a class="no-anchor-style" href="business-profile.html">
+                                                    <h3 class="h3 text-thin m-0">Nombre de la Empresa</h3>
+                                                    <small class="m-0 p-0">Categoría | Estado</small>
+                                                </a>
+                                                <p class="description mt-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque fringilla
+                                                    ligula gravida feugiat suscipit. </p>
+                                            </div>
+                                            <div class="footer align-items-center">
+                                                <a class="btn btn-gradient full-width" href="">Pedir Presupuesto</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="business-listing-item">
+                                <div class="row align-items-stretch">
+                                    <div class="col-md-6 pr-md-0 my-auto">
+                                        <div class="image">
+                                            <a href="business-profile.html">
+                                                <img class="img-fluid" alt=" The Chalet Estate" src="assets/img/card-image.png">
+                                                <div class="platinum">Platinum</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 pl-md-0">
+                                        <div class="inner bg-black-2 d-flex justify-content-center flex-column pd-lg-0">
+                                            <div class="info">
+                                                <a class="no-anchor-style" href="business-profile.html">
+                                                    <h3 class="h3 text-thin m-0">Nombre de la Empresa</h3>
+                                                    <small class="m-0 p-0">Categoría | Estado</small>
+                                                </a>
+                                                <p class="description mt-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque fringilla
+                                                    ligula gravida feugiat suscipit. </p>
+                                            </div>
+                                            <div class="footer align-items-center">
+                                                <a class="btn btn-gradient full-width" href="">Pedir Presupuesto</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="business-listing-item">
+                                <div class="row align-items-stretch">
+                                    <div class="col-md-6 pr-md-0 my-auto">
+                                        <div class="image">
+                                            <a href="business-profile.html">
+                                                <img class="img-fluid" alt=" The Chalet Estate" src="assets/img/card-image.png">
+                                                <div class="platinum">Platinum</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 pl-md-0">
+                                        <div class="inner bg-black-2 d-flex justify-content-center flex-column pd-lg-0">
+                                            <div class="info">
+                                                <a class="no-anchor-style" href="business-profile.html">
+                                                    <h3 class="h3 text-thin m-0">Nombre de la Empresa</h3>
+                                                    <small class="m-0 p-0">Categoría | Estado</small>
+                                                </a>
+                                                <p class="description mt-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque fringilla
+                                                    ligula gravida feugiat suscipit. </p>
+                                            </div>
+                                            <div class="footer align-items-center">
+                                                <a class="btn btn-gradient full-width" href="">Pedir Presupuesto</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="business-listing-footer">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="left mt-5">
+                                <p class="mb-0">Mostrando
+                                    <span class="text-primary">1 </span> de
+                                    <span class="text-primary">6 </span>
+                                </p>
+                            </div>
+                            <div class="right mt-5">
+                                <nav aria-label="Page navigation example">
+                                    <ul class="pagination m-0">
+                                        <li class="page-item">
+                                            <a href="#" aria-label="Previous" class="page-link">
+                                                <span aria-hidden="true">«</span>
+                                                <span class="sr-only">Previous</span>
+                                            </a>
+                                        </li>
+                                        <li class="page-item">
+                                            <a href="#" class="page-link active">1</a>
+                                        </li>
+                                        <li class="page-item">
+                                            <a href="#" class="page-link">2</a>
+                                        </li>
+                                        <li class="page-item">
+                                            <a href="#" class="page-link">3</a>
+                                        </li>
+                                        <li class="page-item">
+                                            <a href="#" aria-label="Next" class="page-link">
+                                                <span aria-hidden="true">»</span>
+                                                <span class="sr-only">Next</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="business-listing-sidebar">
+
+                        <div class="widget featured-widget">
+                            <div class="widget-header">
+                                <strong class="has-line">Empresas Destacadas</strong>
+                            </div>
+                            <div class="business-thumb d-flex align-items-center">
+                                <a href="#">
+                                    <div class="image pt-4">
+                                        <img src="assets/img/card-image.png" alt="..." class="img-fluid">
+                                    </div>
+                                </a>
+                                <div class="text">
+                                    <a href="#" class="no-anchor-style">Nombre Empresa
+                                        <p>Categoria | Merida</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="business-thumb d-flex align-items-center">
+                                <a href="#">
+                                    <div class="image pt-4">
+                                        <img src="assets/img/card-image.png" alt="..." class="img-fluid">
+                                    </div>
+                                </a>
+                                <div class="text">
+                                    <a href="#" class="no-anchor-style">Nombre Empresa
+                                        <p>Categoria | Merida</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="business-thumb d-flex align-items-center">
+                                <a href="#">
+                                    <div class="image pt-4">
+                                        <img src="assets/img/card-image.png" alt="..." class="img-fluid">
+                                    </div>
+                                </a>
+                                <div class="text">
+                                    <a href="#" class="no-anchor-style">Nombre Empresa
+                                        <p>Categoria | Merida</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-black-4 ob-banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9 col-12">
+                    <h3 class="text-center h3">¿Quieres que
+                        <span class="text-primary">tu empresa</span>aparezca en esta lista?</h3>
+                </div>
+                <div class="col-lg-3 text-center my-auto pt-3 pt-lg-0">
+                    <a href="business-register.html" class="btn btn-gradient">Registra tu Empresa</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer class="footer bg-black-5" id="ob-foot">
+        <!-- load ob-foot.html -->
+    </footer>
+    <!-- Javascript files-->
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/ob-load.js"></script>
+    <script src="assets/vendor/popper.js/umd/popper.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/vendor/bootstrap-select/js/bootstrap-select.js"></script>
+    <script src="assets/vendor/jquery.cookie/jquery.cookie.js"></script>
+    <script src="assets/vendor/swiper/js/swiper.js"></script>
+    <script src="assets/js/front.js"></script>
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID.-->
+    <!---->
+    <script>
+        (function (b, o, i, l, e, r) {
+            b.GoogleAnalyticsObject = l;
+            b[l] || (b[l] =
+                function () {
+                    (b[l].q = b[l].q || []).push(arguments)
+                });
+            b[l].l = +new Date;
+            e = o.createElement(i);
+            r = o.getElementsByTagName(i)[0];
+            e.src = '//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e, r)
+        }(window, document, 'script', 'ga'));
+        ga('create', 'UA-XXXXX-X');
+        ga('send', 'pageview');
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,90 @@
+.platinum-badge {
+    position: absolute;
+    right: -5px;
+    top: 10px;
+    font-size: 20px;
+    z-index: 1;
+}
+
+.gold-badge {
+    position: absolute;
+    right: -5px;
+    top: 10px;
+    font-size: 20px;
+    z-index: 1;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.icon  {
+    max-height: 90px;
+    margin: 35px 0px 15px 0px;
+}
+
+.business .ob-dnone {
+    display: block;
+}
+
+.ob-banner{
+    padding: 4.5rem 0;
+}
+.ob-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: #999;
+}
+small {
+    color: #ccc;
+    padding-left: 15px;
+    margin-top: 5px;
+}
+.ob-drop{
+   background: #2c2c2c;
+}
+.grey-1{
+    color: #999999;
+}
+
+/*
+* ===============================================================
+*     Find Business cards
+* ===============================================================
+*/
+
+.business-listing-item .image .platinum {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    background: #ff5e00;
+    padding: 5px 20px;
+    color: #fff;
+}
+.business-listing-item .image .gold {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    background: #e5c459;
+    padding: 5px 20px;
+    color: #fff;
+}
+
+.business-listing-item .info .description {
+    font-size: 0.85rem;
+    font-weight: 300;
+    color: #999;
+}
+
+/*
+* ===============================================================
+*     Random
+* ===============================================================
+*/
+.big-icon {
+    font-size: 15em;
+}

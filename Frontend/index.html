@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Party Planner</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="all,follow">
+  <!-- Bootstrap CSS-->
+  <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
+  <!-- Font Awesome CSS-->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+  <!-- Fontastic-->
+  <link rel="stylesheet" href="assets/css/fontastic.css">
+  <!-- Bootstrap Select-->
+  <link rel="stylesheet" href="assets/vendor/bootstrap-select/css/bootstrap-select.css">
+  <!-- Google fonts - Poppins-->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,700">
+  <!-- swiper carousel-->
+  <link rel="stylesheet" href="assets/vendor/swiper/css/swiper.css">
+  <!-- Gallery-->
+  <link rel="stylesheet" href="assets/css/gallery.css">
+  <!-- theme stylesheet-->
+  <link rel="stylesheet" href="assets/css/style.css" id="theme-stylesheet">
+  <!-- Custom stylesheet - for your changes-->
+  <link rel="stylesheet" href="assets/css/custom.css">
+  <!-- Favicon-->
+  <link rel="shortcut icon" href="assets/img/favicon.ico">
+  <!-- Modernizr-->
+  <script src="assets/js/modernizr.custom.js"></script>
+  <!-- Tweaks for older IEs-->
+  <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+</head>
+
+<body>
+  <!-- navbar-->
+  <header id="ob-head" class="header">
+    <!-- load ob-head.html -->
+  </header>
+  <!-- Hero Section-->
+  <section class="hero-section bg-black-3">
+    <div class="swiper-container hero-slider">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div style="background: url(assets/img/hero-bg-1.jpg);" class="hero-content has-overlay-dark">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-8">
+                  <h1>Solicita tu presupuesto gratis</h1>
+                  <p class="template-text">Ahorra tiempo y dinero, explicanos que necesitas y recibe hasta 4 presupuestos de diferentes empresas y
+                    tu eliges la mejor. Pide tu presupuesto ahora.</p>
+                  <a href="#" class="btn btn-gradient">Solicitar Presupuesto</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div style="background: url(assets/img/hero-bg-2.jpg);" class="hero-content has-overlay-dark">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-8">
+                  <h1>Consigue a los mejores</h1>
+                  <p class="template-text">Haz tu busqueda y contacta a los mejores profesionales para tu evento o boda</p>
+                  <a href="#" class="btn btn-gradient">Buscar aquí</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div style="background: url(assets/img/hero-bg-3.jpg);" class="hero-content has-overlay-dark">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-8">
+                  <h1>Registra tu empresa gratis</h1>
+                  <p class="template-text">Registrate gratis en nuestra plataforma y consigue nuevos clientes. Te enviamos nuevas oportunidades de
+                    negocio</p>
+                  <a href="#" class="btn btn-gradient">Regista tu empresa</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Add Pagination-->
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+  <!-- Search Section-->
+  <section class="search-business bg-black-4">
+    <div class="container">
+      <form action="#">
+        <div class="row">
+          <div class="form-group col-md-9 col-lg-7">
+            <input type="text" name="keyword_search" placeholder="Estoy buscando..." class="form-control">
+          </div>
+          <div class="form-group col-md-3 col-lg-3">
+            <select id="searchActions" name="search_actions" class="selectpicker">
+              <option value="">¿Dónde?</option>
+              <option value="cancun">Cancún</option>
+              <option value="campeche">Campeche</option>
+              <option value="merida">Mérida</option>
+              <option value="mexico">México</option>
+            </select>
+          </div>
+          <div class="form-group col-lg-2">
+            <button type="submit" class="submit btn btn-gradient full-width">Buscar</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </section>
+  <!-- New businesses Section-->
+  <section class="new-businesses bg-black-3">
+    <div class="container">
+      <header class="text-center">
+        <h2>Empresas
+          <span class="text-primary">Premium</span>
+        </h2>
+        <div class="row">
+          <p class="template-text col-lg-8 mx-auto">Las empresas más recientes de esta plataforma.</p>
+        </div>
+      </header>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 ">
+          <div class="business mb-4 mb-lg-3">
+            <a href="#">
+              <div class="image">
+                <img src="assets/img/card-image.png" alt="Nombre proveedor de servicio" class="img-fluid">
+                <span class="badge badge-primary platinum-badge">Platinum</span>
+                <div class="overlay d-flex align-items-center justify-content-center">
+                  <!--<a href="business-single.html" class="btn btn-gradient btn-sm">Más Información</a>-->
+                </div>
+              </div>
+            </a>
+            <div class="info">
+              <a href="business-profile.html" class="no-anchor-style">
+                <h3 class="h4 text-thin text-uppercase mb-1">Nombre de empresa</h3>
+              </a>
+              <ul class="tags list-inline mb-0">
+                <li class="list-inline-item">
+                  <a href="#">Catering</a>
+                </li>
+                <li class="list-inline-item grey-1">
+                  |
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">Mérida</a>
+                </li>
+              </ul>
+            </div>
+            <div class="statistics text-center">
+              <a href="business-profile.html" class="btn btn-gradient full-width">Más Información</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 ">
+          <div class="business mb-4 mb-lg-3">
+            <a href="#">
+              <div class="image">
+                <img src="assets/img/card-image.png" alt="Nombre proveedor de servicio" class="img-fluid">
+                <span class="badge badge-primary platinum-badge">Platinum</span>
+                <div class="overlay d-flex align-items-center justify-content-center">
+                  <!--<a href="business-single.html" class="btn btn-gradient btn-sm">Más Información</a>-->
+                </div>
+              </div>
+            </a>
+            <div class="info">
+              <a href="business-profile.html" class="no-anchor-style">
+                <h3 class="h4 text-thin text-uppercase mb-1">Nombre de empresa</h3>
+              </a>
+              <ul class="tags list-inline mb-0">
+                <li class="list-inline-item">
+                  <a href="#">Catering</a>
+                </li>
+                <li class="list-inline-item grey-1">
+                  |
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">Mérida</a>
+                </li>
+              </ul>
+            </div>
+            <div class="statistics text-center">
+              <a href="business-profile.html" class="btn btn-gradient full-width">Más Información</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 ">
+          <div class="business mb-4 mb-lg-3">
+            <a href="#">
+              <div class="image">
+                <img src="assets/img/card-image.png" alt="Nombre proveedor de servicio" class="img-fluid">
+                <span class="badge badge-primary platinum-badge">Platinum</span>
+                <div class="overlay d-flex align-items-center justify-content-center">
+                  <!--<a href="business-single.html" class="btn btn-gradient btn-sm">Más Información</a>-->
+                </div>
+              </div>
+            </a>
+            <div class="info">
+              <a href="business-profile.html" class="no-anchor-style">
+                <h3 class="h4 text-thin text-uppercase mb-1">Nombre de empresa</h3>
+              </a>
+              <ul class="tags list-inline mb-0">
+                <li class="list-inline-item">
+                  <a href="#">Catering</a>
+                </li>
+                <li class="list-inline-item grey-1">
+                  |
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">Mérida</a>
+                </li>
+              </ul>
+            </div>
+            <div class="statistics text-center">
+              <a href="business-profile.html" class="btn btn-gradient full-width">Más Información</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 ">
+          <div class="business mb-4 mb-lg-3">
+            <a href="#">
+              <div class="image">
+                <img src="assets/img/card-image.png" alt="Nombre proveedor de servicio" class="img-fluid">
+                <span class="badge badge-primary platinum-badge">Platinum</span>
+                <div class="overlay d-flex align-items-center justify-content-center">
+                  <!--<a href="business-single.html" class="btn btn-gradient btn-sm">Más Información</a>-->
+                </div>
+              </div>
+            </a>
+            <div class="info">
+              <a href="business-profile.html" class="no-anchor-style">
+                <h3 class="h4 text-thin text-uppercase mb-1">Nombre de empresa</h3>
+              </a>
+              <ul class="tags list-inline mb-0">
+                <li class="list-inline-item">
+                  <a href="#">Catering</a>
+                </li>
+                <li class="list-inline-item grey-1">
+                  |
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">Mérida</a>
+                </li>
+              </ul>
+            </div>
+            <div class="statistics text-center">
+              <a href="business-profile.html" class="btn btn-gradient full-width">Más Información</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 ">
+          <div class="business mb-4 mb-lg-3">
+            <a href="#">
+              <div class="image">
+                <img src="assets/img/card-image.png" alt="Nombre proveedor de servicio" class="img-fluid">
+                <span class="badge badge-primary platinum-badge">Platinum</span>
+                <div class="overlay d-flex align-items-center justify-content-center">
+                  <!--<a href="business-single.html" class="btn btn-gradient btn-sm">Más Información</a>-->
+                </div>
+              </div>
+            </a>
+            <div class="info">
+              <a href="business-profile.html" class="no-anchor-style">
+                <h3 class="h4 text-thin text-uppercase mb-1">Nombre de empresa</h3>
+              </a>
+              <ul class="tags list-inline mb-0">
+                <li class="list-inline-item">
+                  <a href="#">Catering</a>
+                </li>
+                <li class="list-inline-item grey-1">
+                  |
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">Mérida</a>
+                </li>
+              </ul>
+            </div>
+            <div class="statistics text-center">
+              <a href="business-profile.html" class="btn btn-gradient full-width">Más Información</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 ">
+          <div class="business mb-4 mb-lg-3">
+            <a href="#">
+              <div class="image">
+                <img src="assets/img/card-image.png" alt="Nombre proveedor de servicio" class="img-fluid">
+                <span class="badge badge-primary platinum-badge">Platinum</span>
+                <div class="overlay d-flex align-items-center justify-content-center">
+                  <!--<a href="business-single.html" class="btn btn-gradient btn-sm">Más Información</a>-->
+                </div>
+              </div>
+            </a>
+            <div class="info">
+              <a href="business-profile.html" class="no-anchor-style">
+                <h3 class="h4 text-thin text-uppercase mb-1">Nombre de empresa</h3>
+              </a>
+              <ul class="tags list-inline mb-0">
+                <li class="list-inline-item">
+                  <a href="#">Catering</a>
+                </li>
+                <li class="list-inline-item grey-1">
+                  |
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">Mérida</a>
+                </li>
+              </ul>
+            </div>
+            <div class="statistics text-center">
+              <a href="business-profile.html" class="btn btn-gradient full-width">Más Información</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <section class="bg-black-4 ob-banner">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-9 col-12">
+          <h2 class="text-center">¿Quieres que
+            <span class="text-primary">tu empresa</span>aparezca en esta lista?</h2>
+        </div>
+        <div class="col-lg-3 text-center my-auto pt-3 pt-lg-0">
+          <a href="business-register.html" class="btn btn-gradient">Registra tu Empresa</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Featured businesses -->
+  <section class="featured-businesses pt-5 bg-black-3">
+    <div class="container">
+      <header>
+        <h2>Empresa
+          <span class="text-primary">Destacada</span>
+        </h2>
+        <div class="row">
+          <div class="col-lg-8">
+            <p class="template-text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque
+              corrupti quos dolores et quas molestias.</p>
+          </div>
+        </div>
+      </header>
+      <div class="row d-flex align-items-center">
+        <div class="col-lg-6 pr-lg-0">
+          <div class="image">
+            <img src="assets/img/logo-placeholder.png" alt="..." class="img-fluid">
+          </div>
+        </div>
+        <div class="col-lg-6 pl-lg-0">
+          <div class="text">
+            <strong>Empresa Destacada</strong>
+            <h3 class="text-transform text-thin text-uppercase has-line">Nombre de la empresa</h3>
+            <p>Informacion de la empresa at vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+              voluptatum deleniti atque corrupti quos dolores et quas molestias usto odio dignissimos ducimus qui blanditiis
+              praesentium.
+            </p>
+            <a href="#" class="btn btn-gradient">Pedir Presupuesto</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Interest Business Section-->
+  <section class="interest pt-0 bg-black-3">
+    <div class="container">
+      <header class="text-center">
+        <h2>Empresas de
+          <span class="text-primary">interés</span>
+        </h2>
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <p class="template-text">Te mostramos empresas que pueden ser de tu interés.</p>
+          </div>
+        </div>
+      </header>
+      <div class="swiper-container interest-slider">
+        <div class="swiper-wrapper pt-2 pb-5">
+          <div class="swiper-slide">
+            <div class="business">
+              <a href="business-profile.html">
+                <div class="image">
+                  <img src="assets/img/card-image.png" alt="Condo with pool view" class="img-fluid">
+                  <span class="badge badge-primary platinum-badge">Platinum</span>
+                  <div class="overlay d-flex align-items-center justify-content-center">
+                  </div>
+                </div>
+              </a>
+              <div class="info">
+                <a href="business-profile.html" class="no-anchor-style">
+                  <h3 class="h4 text-thin text-uppercase mb-1">Nombre de empresa 1</h3>
+                </a>
+                <ul class="tags list-inline mb-0">
+                  <li class="list-inline-item">
+                    <a href="#">Catering,</a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#">Mérida</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="statistics text-center">
+                <a href="" class="btn btn-gradient full-width">Más Información</a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="business">
+              <a href="business-profile.html">
+                <div class="image">
+                  <img src="assets/img/card-image.png" alt="Condo with pool view" class="img-fluid">
+                  <span class="badge badge-primary platinum-badge">Platinum</span>
+                  <div class="overlay d-flex align-items-center justify-content-center">
+                  </div>
+                </div>
+              </a>
+              <div class="info">
+                <a href="business-profile.html" class="no-anchor-style">
+                  <h3 class="h4 text-thin text-uppercase mb-1">Nombre de empresa 2</h3>
+                </a>
+                <ul class="tags list-inline mb-0">
+                  <li class="list-inline-item">
+                    <a href="#">Catering,</a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#">Mérida</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="statistics text-center">
+                <a href="" class="btn btn-gradient full-width">Más Información</a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="business">
+              <a href="business-profile.html">
+                <div class="image">
+                  <img src="assets/img/card-image.png" alt="Condo with pool view" class="img-fluid">
+                  <span class="badge badge-primary platinum-badge">Platinum</span>
+                  <div class="overlay d-flex align-items-center justify-content-center">
+                  </div>
+                </div>
+              </a>
+              <div class="info">
+                <a href="business-profile.html" class="no-anchor-style">
+                  <h3 class="h4 text-thin text-uppercase mb-1">Nombre de empresa 3</h3>
+                </a>
+                <ul class="tags list-inline mb-0">
+                  <li class="list-inline-item">
+                    <a href="#">Catering,</a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#">Mérida</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="statistics text-center">
+                <a href="" class="btn btn-gradient full-width">Más Información</a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="business">
+              <a href="business-profile.html">
+                <div class="image">
+                  <img src="assets/img/card-image.png" alt="Condo with pool view" class="img-fluid">
+                  <span class="badge badge-primary platinum-badge">Platinum</span>
+                  <div class="overlay d-flex align-items-center justify-content-center">
+                  </div>
+                </div>
+              </a>
+              <div class="info">
+                <a href="business-profile.html" class="no-anchor-style">
+                  <h3 class="h4 text-thin text-uppercase mb-1">Nombre de empresa 4</h3>
+                </a>
+                <ul class="tags list-inline mb-0">
+                  <li class="list-inline-item">
+                    <a href="#">Catering,</a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#">Mérida</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="statistics text-center">
+                <a href="" class="btn btn-gradient full-width">Más Información</a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="business">
+              <a href="business-profile.html">
+                <div class="image">
+                  <img src="assets/img/card-image.png" alt="Condo with pool view" class="img-fluid">
+                  <span class="badge badge-primary platinum-badge">Platinum</span>
+                  <div class="overlay d-flex align-items-center justify-content-center">
+                  </div>
+                </div>
+              </a>
+              <div class="info">
+                <a href="business-profile.html" class="no-anchor-style">
+                  <h3 class="h4 text-thin text-uppercase mb-1">Nombre de empresa 5</h3>
+                </a>
+                <ul class="tags list-inline mb-0">
+                  <li class="list-inline-item">
+                    <a href="#">Catering,</a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#">Mérida</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="statistics text-center">
+                <a href="" class="btn btn-gradient full-width">Más Información</a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="business">
+              <a href="business-profile.html">
+                <div class="image">
+                  <img src="assets/img/card-image.png" alt="Condo with pool view" class="img-fluid">
+                  <span class="badge badge-primary platinum-badge">Platinum</span>
+                  <div class="overlay d-flex align-items-center justify-content-center">
+                  </div>
+                </div>
+              </a>
+              <div class="info">
+                <a href="business-profile.html" class="no-anchor-style">
+                  <h3 class="h4 text-thin text-uppercase mb-1">Nombre de empresa 6</h3>
+                </a>
+                <ul class="tags list-inline mb-0">
+                  <li class="list-inline-item">
+                    <a href="#">Catering,</a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#">Mérida</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="statistics text-center">
+                <a href="" class="btn btn-gradient full-width">Más Información</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Add Pagination-->
+        <div class="swiper-pagination"> </div>
+      </div>
+    </div>
+  </section>
+  <!-- Events Options -->
+  <section class="new-businesses bg-black-3">
+    <div class="container">
+      <header class="text-center">
+        <h2>Eventos </h2>
+        <div class="row">
+          <p class="template-text col-lg-8 mx-auto">Tipos de eventos más buscados.</p>
+        </div>
+      </header>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 ">
+          <div class="business mb-4">
+            <a href="#" class="ob-dnone">
+              <div class="image">
+                <img src="assets/img/card-image.png" alt="Nombre proveedor de servicio" class="img-fluid">
+                <div class="overlay">
+                </div>
+                <div class="centered">
+                  <h4 class="text-primary">Bodas</h4>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 ">
+          <div class="business mb-4">
+            <a href="#" class="ob-dnone">
+              <div class="image">
+                <img src="assets/img/card-image.png" alt="Nombre proveedor de servicio" class="img-fluid">
+                <div class="overlay">
+                </div>
+                <div class="centered">
+                  <h4 class="text-primary">Fiestas infantiles</h4>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 ">
+          <div class="business mb-4">
+            <a href="#" class="ob-dnone">
+              <div class="image">
+                <img src="assets/img/card-image.png" alt="Nombre proveedor de servicio" class="img-fluid">
+                <div class="overlay">
+                </div>
+                <div class="centered">
+                  <h4 class="text-primary">Ferias y Congresos</h4>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 ">
+          <div class="business mb-4">
+            <a href="#" class="ob-dnone">
+              <div class="image">
+                <img src="assets/img/card-image.png" alt="Nombre proveedor de servicio" class="img-fluid">
+                <div class="overlay">
+                </div>
+                <div class="centered">
+                  <h4 class="text-primary">Eventos Empresariales</h4>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 ">
+          <div class="business mb-4">
+            <a href="#" class="ob-dnone">
+              <div class="image">
+                <img src="assets/img/card-image.png" alt="Nombre proveedor de servicio" class="img-fluid">
+                <div class="overlay">
+                </div>
+                <div class="centered">
+                  <h4 class="text-primary">Celebraciones familiares</h4>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 ">
+          <div class="business mb-4">
+            <a href="#" class="ob-dnone">
+              <div class="image">
+                <img src="assets/img/card-image.png" alt="Nombre proveedor de servicio" class="img-fluid">
+                <div class="overlay">
+                </div>
+                <div class="centered">
+                  <h4 class="text-primary">Otros eventos</h4>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- How It Works Section -->
+  <section class="bg-black-4">
+    <div class="container">
+      <header class="text-center">
+        <h2>Pide tu presupuesto
+          <span class="text-primary">Gratis</span>
+        </h2>
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <p class="template-text">Como funciona el proceso de pedir presupuestos.</p>
+          </div>
+        </div>
+      </header>
+      <div class="card-group">
+        <div class="card rounded-0 bg-black-3">
+          <img class="card-img-top icon" src="assets/img/mailout.svg" alt="...">
+          <div class="card-body">
+            <h5 class="card-title has-line">1. Pide tu presupuesto Gratis</h5>
+            <p class="card-text">Llena un formulario donde expliques lo que buscas o lo que necesitas y nosotros te conectamos con los mejores
+              profesionales y empresas de tu zona.
+            </p>
+          </div>
+        </div>
+        <div class="card rounded-0 bg-black-3">
+          <img class="card-img-top icon" src="assets/img/mail4.svg" alt="...">
+          <div class="card-body">
+            <h5 class="card-title has-line">2. Recibe hasta 4 ofertas</h5>
+            <p class="card-text">Las empresas y profesionales de tu zona que se ajusten mejor a tus necesidades se pondrán en contacto contigo
+              y te haran llegar los presupuestos.
+            </p>
+          </div>
+        </div>
+        <div class="card rounded-0 bg-black-3">
+          <img class="card-img-top icon" src="assets/img/winner.svg" alt="...">
+          <div class="card-body">
+            <h5 class="card-title has-line">3. Elige la mejor oferta</h5>
+            <p class="card-text">Evalúa los presupuestos que recibiste de distintos profesionales y escoge el que mejor se ajuste a lo que estas
+              buscando.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row my-4">
+        <a href="#" class="btn btn-gradient mx-auto">Pide presupuesto gratis</a>
+      </div>
+    </div>
+  </section>
+  <!-- Scroll Top Button        -->
+  <div id="scrollTopButton">
+    <i class="fas fa-long-arrow-alt-up"></i>
+  </div>
+  <!-- footer -->
+  <footer class="footer bg-black-5" id="ob-foot">
+    <!-- load ob-foot.html -->
+  </footer>
+  <!-- Javascript files-->
+  <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="assets/js/ob-load.js"></script>
+  <script src="assets/vendor/popper.js/umd/popper.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/vendor/bootstrap-select/js/bootstrap-select.js"></script>
+  <script src="assets/vendor/jquery.cookie/jquery.cookie.js"></script>
+  <script src="assets/vendor/swiper/js/swiper.js"></script>
+  <script src="assets/js/front.js"></script>
+  <!-- Google Analytics: change UA-XXXXX-X to be your site's ID.-->
+  <!---->
+  <script>
+    (function (b, o, i, l, e, r) {
+      b.GoogleAnalyticsObject = l;
+      b[l] || (b[l] =
+        function () {
+          (b[l].q = b[l].q || []).push(arguments)
+        });
+      b[l].l = +new Date;
+      e = o.createElement(i);
+      r = o.getElementsByTagName(i)[0];
+      e.src = '//www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e, r)
+    }(window, document, 'script', 'ga'));
+    ga('create', 'UA-XXXXX-X');
+    ga('send', 'pageview');
+  </script>
+</body>
+
+</html>
