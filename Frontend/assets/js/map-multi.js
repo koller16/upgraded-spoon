@@ -310,7 +310,7 @@ function init() {
         marker = new google.maps.Marker({
             map: c,
             position: new google.maps.LatLng(locations[i][1], locations[i][2]),
-            icon: "img/map-marker-default.png"
+            icon: "assets/img/map-marker.svg"
         })
     }
 }

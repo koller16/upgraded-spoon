@@ -97,10 +97,11 @@
 
             </div>
           </form>
-          <div class="p-3 text-center bg-black-1 collapse" id="recover">
-            <form action="#" class="login-form">
-              <p>¿Olvidaste tu password? Escribe el email de tu cuenta y te enviaremos informacion de lo que debes hacer para
-                recuperarla.
+          <div class="collapse" id="recover">
+            <div class="card-body bg-black-1 p-3 text-center">
+              <p class="my-2">¿Olvidaste tu password? Escribe tu email y te enviaremos instrucciones para recuperarla.
+                <form action="#" class="login-form">
+
               </p>
               <div class="form-group">
                 <input type="email" name="email" placeholder="nombre@domain.com" class="form-control">
@@ -108,7 +109,8 @@
               <div class="form-group">
                 <button type="submit" class="btn btn-gradient m-0">Recuperar</button>
               </div>
-            </form>
+              </form>
+            </div>
           </div>
         </div>
         <div class="col-lg-6 mt-5 mt-lg-0">
@@ -133,7 +135,7 @@
             </div>
             <div class="form-group d-flex justify-content-between">
               <label for="terms" class="label-template-checkbox m-2">Acepto
-                <a href="#">Términos y Condiciones</a>
+                <a href="#">Política de privacidad</a>
                 <input type="checkbox" name="terms" id="terms">
               </label>
               <button type="submit" class="btn btn-gradient submit">Registrar</button>

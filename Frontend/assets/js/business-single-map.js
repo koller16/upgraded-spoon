@@ -297,7 +297,7 @@ function init() {
     marker = new google.maps.Marker({
         map: c,
         position: new google.maps.LatLng(40.650002, -73.949997),
-        icon: "img/map-marker-default.png"
+        icon: "assets/img/map-marker.svg"
     })
 }
 google.maps.event.addDomListener(window, "load", init);
