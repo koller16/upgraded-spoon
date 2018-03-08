@@ -87,6 +87,41 @@ small {
 
 /*
 * ===============================================================
+*     Custom checkbox
+* ===============================================================
+*/
+
+.custom-control.material-checkbox {
+    --color: #4717f6;
+}
+
+.custom-control.material-checkbox .material-control-input {
+    display: none;
+}
+
+.custom-control.material-checkbox .material-control-input:checked~.material-control-indicator {
+    border-color: var(--color);
+    -webkit-transform: rotateZ(45deg) translate(1px, -5px);
+    transform: rotateZ(45deg) translate(1px, -5px);
+    width: 10px;
+    border-top: 0px solid #fff;
+    border-left: 0px solid #fff;
+}
+
+.custom-control.material-checkbox .material-control-indicator {
+    display: inline-block;
+    position: absolute;
+    top: 4px;
+    left: 0;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #aaa;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+/*
+* ===============================================================
 *     Random
 * ===============================================================
 */

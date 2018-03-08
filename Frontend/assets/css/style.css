@@ -1,12 +1,4 @@
 /*
-=========================================
-=========================================
-
-Townville - Real Estate template
-
-=========================================
-========================================= */
-/*
 * ===============================================================
 *     GENERAL
 * ===============================================================
@@ -411,13 +403,13 @@ p {
   color: #555;
 }
 
-.dropdown-toggle::after {
+/*.dropdown-toggle::after {
   border: none !important;
   content: '\f107';
   vertical-align: baseline;
-  font-family: 'FontAwesome';
+  font-family: 'Font Awesome 5 Solid';
   margin-left: 0;
-}
+}*/
 
 /* Megamenu */
 .megamenu {
@@ -588,7 +580,7 @@ label {
   margin-top: 15px;
 }
 
-.label-template-checkbox {
+/*.label-template-checkbox {
   color: #999;
   font-family: "Poppins", sans-serif;
   font-weight: 300;
@@ -632,7 +624,7 @@ label {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   color: #fff;
-  font-family: 'FontAwesome';
+  font-family: 'Font Awesome 5 Solid';
   font-size: 0.65rem;
 }
 
@@ -642,7 +634,7 @@ label {
 
 .label-template-checkbox.active::after {
   opacity: 1;
-}
+}*/
 
 .placeholder-right::-moz-placeholder {
   text-align: right;
@@ -700,7 +692,7 @@ textarea {
   margin-bottom: 0;
 }
 
-.breadcrumb::before {
+/*.breadcrumb::before {
   content: '\f015';
   display: block;
   position: absolute;
@@ -709,8 +701,8 @@ textarea {
   color: #4717f6;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
-  font-family: 'FontAwesome';
-}
+  font-family: 'Font Awesome 5 Solid';
+}*/
 
 .breadcrumb a {
   text-decoration: none;

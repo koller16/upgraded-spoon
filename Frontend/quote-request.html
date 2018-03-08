@@ -12,6 +12,12 @@
     <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
     <!-- Font Awesome CSS-->
     <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <script>
+        FontAwesomeConfig = {
+            searchPseudoElements: true
+        };
+    </script>
+
     <!-- Fontastic-->
     <link rel="stylesheet" href="assets/css/fontastic.css">
     <!-- Bootstrap Select-->
@@ -48,7 +54,8 @@
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item">
-                        <a href="index.html">Inicio</a>
+                        <a href="index.html">
+                            <i class="fas fa-home text-primary"></i> Inicio</a>
                     </li>
                     <li aria-current="page" class="breadcrumb-item active">Pedir presupuesto</li>
                 </ol>
@@ -130,9 +137,12 @@
                         </div>
                         <div class="d-flex justify-content-between">
                             <div class="form-group">
-                                <label for="terms" class="label-template-checkbox m-2">Acepto los
-                                    <a href="#">Términos y Condiciones</a>
-                                    <input type="checkbox" name="terms" id="terms">
+                                <label class="custom-control material-checkbox my-2 ml-3" for="terms">
+                                    <input type="checkbox" class="material-control-input" name="terms" id="terms">
+                                    <span class="material-control-indicator"></span>
+                                    <span class="material-control-description">Acepto los
+                                        <a href="#">Términos y Condiciones</a>
+                                    </span>
                                 </label>
                             </div>
                             <div class="form-group">

@@ -87,8 +87,10 @@
               <small>Ingresa tu password</small>
             </div>
             <div class="form-group d-flex justify-content-between">
-              <label for="terms" class="label-template-checkbox m-2">Mantener logueado
-                <input type="checkbox" name="terms" id="terms">
+              <label class="custom-control material-checkbox my-2 ml-3" for="keep">
+                <input type="checkbox" class="material-control-input" name="keep" id="keep">
+                <span class="material-control-indicator"></span>
+                <span class="material-control-description">Mantener logueado</span>
               </label>
               <button type="submit" class="btn btn-gradient submit">Login</button>
             </div>
@@ -134,9 +136,12 @@
               <small>¿Cual password quieres usar?</small>
             </div>
             <div class="form-group d-flex justify-content-between">
-              <label for="terms" class="label-template-checkbox m-2">Acepto
-                <a href="#">Política de privacidad</a>
-                <input type="checkbox" name="terms" id="terms">
+              <label class="custom-control material-checkbox my-2 ml-3" for="terms">
+                <input type="checkbox" class="material-control-input" name="terms" id="terms">
+                <span class="material-control-indicator"></span>
+                <span class="material-control-description">Acepto los
+                  <a href="#">Términos y Condiciones</a>
+                </span>
               </label>
               <button type="submit" class="btn btn-gradient submit">Registrar</button>
             </div>
