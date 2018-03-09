@@ -18,7 +18,7 @@
     <!-- theme stylesheet-->
     <link rel="stylesheet" href="assets/styles/style.css" id="theme-stylesheet">
     <!-- Custom stylesheet - for your changes-->
-    <link rel="stylesheet" href="ssets/styles/custom.css">
+    <link rel="stylesheet" href="assets/styles/custom.css">
     <!-- Favicon-->
     <link rel="shortcut icon" href="assets/images/favicon.ico">
     <!-- Font Awesome CSS-->
@@ -41,7 +41,7 @@
         <div class="page-content">
             <div class="page-header">
                 <div class="container-fluid">
-                    <h2 class="h5 no-margin-bottom">Avisos</h2>
+                    <h2 class="h5 no-margin-bottom">Notificaciones Email</h2>
                 </div>
             </div>
             <section class="no-padding-top no-padding-bottom">
@@ -59,38 +59,42 @@
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td class="align-middle">Nuevas oportunidades</td>
+                                            <td class="align-middle">Promociones</td>
                                             <td></td>
                                             <td>
-                                                <div class="select">
-                                                    <select name="status" class="form-control mb-0">
-                                                        <option>Activo</option>
-                                                        <option>Desactivado</option>
-                                                    </select>
+                                                <div class="">
+                                                    <label class="custom-control ios-switch my-1 mr-0">
+                                                        <span class="ios-switch-control-description">Off</span>
+                                                        <input type="checkbox" class="ios-switch-control-input">
+                                                        <span class="ios-switch-control-indicator"></span>
+                                                        <span class="ios-switch-control-description">On</span>
+                                                    </label>
                                                 </div>
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td class="align-middle">Solicitudes de presupuerto</td>
+                                            <td class="align-middle">Notificaciones de solicitudes</td>
                                             <td></td>
                                             <td>
-                                                <div class="select">
-                                                    <select name="status" class="form-control mb-0">
-                                                        <option>Activo</option>
-                                                        <option>Desactivado</option>
-                                                    </select>
+                                                <div class="">
+                                                    <label class="custom-control ios-switch my-1 mr-0">
+                                                        <span class="ios-switch-control-description">Off</span>
+                                                        <input type="checkbox" class="ios-switch-control-input">
+                                                        <span class="ios-switch-control-indicator"></span>
+                                                        <span class="ios-switch-control-description">On</span>
+                                                    </label>
                                                 </div>
                                             </td>
                                         </tr>
                                     </tbody>
                                 </table>
                             </div>
-
-                            <div class="form-group clearfix">
-                                <div class="float-right ">
-                                    <button class="btn btn-primary" type="submit">Guardar</button>
+                            <div class="form-group">
+                                <div class="float-right mt-3">
+                                    <button class="btn btn-gradient" type="submit">Guardar</button>
                                 </div>
                             </div>
+                            <div class="clearfix"></div>
                         </div>
                     </div>
                 </div>
@@ -103,7 +107,7 @@
     </div>
     <!-- Javascript files-->
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script src="assets/js/ob-load.js"></script>
+    <script src="assets/js/ob-load-user.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
     <script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/vendor/jquery.cookie/jquery.cookie.js"></script>

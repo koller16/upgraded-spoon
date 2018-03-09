@@ -18,7 +18,7 @@
     <!-- theme stylesheet-->
     <link rel="stylesheet" href="assets/styles/style.css" id="theme-stylesheet">
     <!-- Custom stylesheet - for your changes-->
-    <link rel="stylesheet" href="ssets/styles/custom.css">
+    <link rel="stylesheet" href="assets/styles/custom.css">
     <!-- Favicon-->
     <link rel="shortcut icon" href="assets/images/favicon.ico">
     <!-- Font Awesome CSS-->
@@ -54,7 +54,7 @@
                                     <div class="progress-details d-flex align-items-end justify-content-between">
                                         <div class="">
                                             <h6 class="">Catering para 300 personas</h6>
-                                            <small class="">Publicado hace 3 dias</small>
+                                            <small class="">Fecha de solicitud 12/12/18</small>
                                         </div>
                                         <div class="">
                                             <div class="dropdown show">
@@ -140,25 +140,19 @@
                                     </div>
                                     <div class="line-separator"></div>
                                     <h5 class="ob-card-title">Administrar Solicitud</h5>
-                                    <div class="select">
-                                        <label for="status">Status de solicitud</label>
-                                        <select name="account" id="status" class="form-control">
-                                            <option>Contactar</option>
-                                            <option>Cotizar</option>
-                                            <option>Cotizado</option>
-                                            <option>Aceptado</option>
-                                            <option>Rechazado</option>
-                                        </select>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="notes">Notas*</label>
-                                        <textarea class="form-control" id="notes" rows="3"></textarea>
-                                        <small>*Lo que se escríbe aquí es solo para uso interno.</small>
+                                    <label for="status">Status de solicitud</label>
+                                    <div class="">
+                                        <label class="custom-control ios-switch my-1 mr-0">
+                                            <span class="ios-switch-control-description">Inactiva</span>
+                                            <input type="checkbox" class="ios-switch-control-input">
+                                            <span class="ios-switch-control-indicator"></span>
+                                            <span class="ios-switch-control-description">Activa</span>
+                                        </label>
                                     </div>
                                 </div>
                                 <div class="ob-card-footer">
                                     <div class="">
-                                        <input type="button" class="btn btn-primary float-right" data-toggle="modal" data-target="#saveModal" value="Guardar">
+                                        <input type="button" class="btn btn-gradient float-right" data-toggle="modal" data-target="#saveModal" value="Guardar">
                                     </div>
                                 </div>
                             </div>
@@ -199,7 +193,7 @@
                                 <p>Aqui se va a mostrar la confirmacion si se guardo exitosamente o si hubo algun error</p>
                             </div>
                             <div class="modal-footer">
-                                <button type="button" class="btn btn-primary">Guardar</button>
+                                <button type="button" class="btn btn-gradient">Guardar</button>
                             </div>
                         </div>
                     </div>
@@ -213,7 +207,7 @@
     </div>
     <!-- Javascript files-->
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script src="assets/js/ob-load.js"></script>
+    <script src="assets/js/ob-load-user.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
     <script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/vendor/jquery.cookie/jquery.cookie.js"></script>
