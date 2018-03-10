@@ -19,6 +19,8 @@
     <link rel="stylesheet" href="assets/styles/style.css" id="theme-stylesheet">
     <!-- Custom stylesheet - for your changes-->
     <link rel="stylesheet" href="assets/styles/custom.css">
+    <!-- Slim Cropper stylesheet-->
+    <link href="assets/vendor/slim/css/slim.min.css" rel="stylesheet">
     <!-- Favicon-->
     <link rel="shortcut icon" href="assets/images/favicon.ico">
     <!-- Font Awesome CSS-->
@@ -182,17 +184,15 @@
                                 <strong class="d-block">Logo de la empresa</strong>
                             </div>
                             <div class="block-body">
-                                <form>
+                                <form action="#" method="post" enctype="multipart/form-data" class="logo">
                                     <div class="row">
                                         <div class="form-group col-lg-6">
-                                            <div class="avatar">
-                                                <img class="img-fluid" alt="..." src="assets/images/logosoon.png">
+                                            <div>
+                                                <input type="file" name="slim[]" class="slim" data-service="assets/vendor/slim/php/async.php" data-fetcher="assets/vendor/slim/php/fetch.php" data-label="Arrastra o toca aquí para subir imagen."
+                                                    accept="image/jpeg, image/png" data-status-file-type="Formato no permitido, solo .PNG y .JPEG"
+                                                    data-label-loading="Cargando imagen..." data-ratio="200:123" id="logo">
+                                                <label for="logo">Logo actual</label>
                                             </div>
-                                            Muestra del logo actual
-                                        </div>
-                                        <div class="form-group col-lg-6">
-                                            <input class="form-control" type="file" placeholder="Logo">
-                                            <small class="help-block-none">Logo de la empresa*</small>
                                         </div>
                                     </div>
                                     <div class="form-group clearfix">
@@ -269,6 +269,7 @@
     <script src="assets/vendor/jquery.cookie/jquery.cookie.js"></script>
     <script src="assets/js/front.js"></script>
     <script src="assets/js/ob-active-nav.js"></script>
+    <script src="assets/vendor/slim/js/slim.kickstart.min.js"></script>
 </body>
 
 </html>
