@@ -1,0 +1,145 @@
+.platinum-badge {
+    position: absolute;
+    right: -5px;
+    top: 10px;
+    font-size: 20px;
+    z-index: 1;
+}
+
+.gold-badge {
+    position: absolute;
+    right: -5px;
+    top: 10px;
+    font-size: 20px;
+    z-index: 1;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.icon {
+    max-height: 90px;
+    margin: 35px 0px 15px 0px;
+}
+
+.business .ob-dnone {
+    display: block;
+}
+
+.ob-banner {
+    padding: 4.5rem 0;
+}
+
+.ob-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: #999;
+}
+
+small {
+    color: #303030;
+    padding-left: 15px;
+    margin-top: 5px;
+}
+
+.ob-drop {
+    background: #2c2c2c;
+}
+
+.grey-1 {
+    color: #999999;
+}
+
+/*
+* ===============================================================
+*     Find Business cards
+* ===============================================================
+*/
+
+.business-listing-item .image .platinum {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    background: #ff5e00;
+    padding: 5px 20px;
+    color: #000;
+}
+
+.business-listing-item .image .gold {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    background: #e5c459;
+    padding: 5px 20px;
+    color: #000;
+}
+
+.business-listing-item .info .description {
+    font-size: 0.85rem;
+    font-weight: 300;
+    color: #999;
+}
+
+/*
+* ===============================================================
+*     Custom checkbox
+* ===============================================================
+*/
+
+.custom-control.material-checkbox {
+    --color: #4717f6;
+}
+
+.custom-control.material-checkbox .material-control-input {
+    display: none;
+}
+
+.custom-control.material-checkbox .material-control-input:checked~.material-control-indicator {
+    border-color: var(--color);
+    -webkit-transform: rotateZ(45deg) translate(1px, -5px);
+    transform: rotateZ(45deg) translate(1px, -5px);
+    width: 10px;
+    border-top: 0px solid #000;
+    border-left: 0px solid #000;
+}
+
+.custom-control.material-checkbox .material-control-indicator {
+    display: inline-block;
+    position: absolute;
+    top: 4px;
+    left: 0;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #aaa;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+/*
+* ===============================================================
+*     Swiper arrow
+* ===============================================================
+*/
+
+
+
+
+/*
+* ===============================================================
+*     Random
+* ===============================================================
+*/
+
+.big-icon {
+    font-size: 15em;
+}
+
+.text-shadow {
+    /* text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);*/
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1);
+}
