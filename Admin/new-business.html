@@ -41,21 +41,201 @@
         <div class="page-content">
             <div class="page-header">
                 <div class="container-fluid">
-                    <h2 class="h5 no-margin-bottom">Notificaciones Email</h2>
+                    <h2 class="h5 no-margin-bottom">Registra tu empresa</h2>
                 </div>
             </div>
             <section class="no-padding-top no-padding-bottom">
                 <div class="container-fluid">
                     <div class="">
                         <div class="block">
-                            
-                           
-                            <div class="form-group">
-                                <div class="float-right mt-3">
-                                    <button class="btn btn-gradient" type="submit">Guardar</button>
+                            <section class="submit-business bg-black-4 pb-5">
+                                <div class="container">
+                                    <div class="row flex-md-row-reverse">
+                                        <div class="col-lg-6 mt-5 mt-lg-0">
+                                            <header class="text-center">
+                                                <h2>Registro de
+                                                    <span class="text-primary">Empresa</span>
+                                                </h2>
+                                                <div class="row">
+                                                    <div class="col-lg-8 mx-auto">
+                                                        <p class="template-text">Registra tu empresa en minutos.</p>
+                                                    </div>
+                                                </div>
+                                            </header>
+                                            <form action="#" class="login-form">
+                                                <div class="row">
+                                                    <div class="form-group col-md-6 col-lg-12">
+                                                        <input class="form-control" type="text" placeholder="Nombre de la empresa">
+                                                        <small class="help-block-none">Nombre de la empresa*</small>
+                                                    </div>
+                                                    <div class="form-group col-md-6 col-lg-12">
+                                                        <input class="form-control" type="email" placeholder="Email">
+                                                        <small class="help-block-none">email*</small>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="form-group col-sm-6">
+                                                        <input class="form-control" type="text" placeholder="Teléfono 1">
+                                                        <small class="help-block-none">Teléfono de la empresa*</small>
+                                                    </div>
+                                                    <div class="form-group col-sm-6">
+                                                        <input class="form-control" type="text" placeholder="Teléfono 2">
+                                                        <small class="help-block-none">Teléfono adiocional</small>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <input class="form-control" type="text" placeholder="Dirección de la empresa">
+                                                    <small class="help-block-none">Dirección de la empresa*</small>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="form-group col-sm-4">
+                                                        <input class="form-control" type="text" placeholder="CP">
+                                                        <small class="help-block-none">Código postal*</small>
+                                                    </div>
+                                                    <div class="form-group col-sm-4">
+                                                        <select name="state" class="form-control mb-0">
+                                                            <option>Estado 1</option>
+                                                            <option>Estado 2</option>
+                                                            <option>Estado 3</option>
+                                                            <option>Estado 4</option>
+                                                        </select>
+                                                        <small class="help-block-none">Estado*</small>
+                                                    </div>
+                                                    <div class="form-group col-sm-4">
+                                                        <input class="form-control" type="text" placeholder="Ciudad">
+                                                        <small class="help-block-none">Ciudad*</small>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="form-group col-md-6">
+                                                        <select id="cat" name="category" class="form-control mb-0">
+                                                            <option value="categoria1">Categoría 1</option>
+                                                            <option value="categoria2">Categoría 2</option>
+                                                            <option value="categoria3">Categoría 3</option>
+                                                            <option value="categoria4">Categoría 4</option>
+                                                        </select>
+                                                        <small>Elige categoria</small>
+                                                    </div>
+                                                    <div class="form-group col-md-6">
+                                                        <select id="subcat" name="subcategory" class="form-control mb-0">
+                                                            <option value="subcat1">Subcat 1</option>
+                                                            <option value="subcat2">Subcat 2</option>
+                                                            <option value="subcat3">Subcat 3</option>
+                                                            <option value="subcat4">Subcat 4</option>
+                                                        </select>
+                                                        <small>Selecciona sub-categoría</small>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex justify-content-between">
+                                                    <div class="form-group">
+                                                        <label class="custom-control material-checkbox my-2" for="terms">
+                                                            <input name="terms" class="material-control-input" id="terms" type="checkbox">
+                                                            <span class="material-control-indicator"></span>
+                                                            <span class="material-control-description">Acepto los
+                                                                <a href="#">Términos y Condiciones</a>
+                                                            </span>
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <button type="submit" class="btn btn-gradient">Registrar</button>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="text-center bg-black-1 py-5">
+                                                <h3>¿Necesitas ayuda?</h3>
+                                                <h4>Escríbenos a:
+                                                    <a href="mailto:email@domain.com">email@domain.com</a>
+                                                </h4>
+                                                <p>
+                                                    <button class="btn btn-gradient mt-2" type="button" data-toggle="collapse" data-target="#callForm" aria-expanded="false"
+                                                        aria-controls="collapseCall">
+                                                        Solicita una llamada
+                                                    </button>
+                                                </p>
+                                                <div class="mx-3 collapse" id="callForm">
+                                                    <form action="#" class="login-form">
+                                                        <div class="form-group">
+                                                            <input type="text" name="name" placeholder="Nombre" class="form-control">
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <input type="tel" name="telefono" placeholder="Numero telefonico" class="form-control">
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <input type="text" name="ciudad" placeholder="Ciudad" class="form-control">
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <button type="submit" class="btn btn-gradient">Enviar</button>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                            <hr class="line">
+                                            <h3 class="has-line">Consigue nuevos clientes</h3>
+                                            <p>Mejora tu presencia online con un escaparate en la web líder en Eventos & Celebraciones
+                                                y contacta con clientes que buscan empresas como la tuya. Podrás acceder
+                                                a solicitudes de trabajo que se ajusten a tu perfil de negocio y comprar
+                                                aquellas que te interesen.</p>
+                                            <hr class="line">
+                                            <ul class="ob-list">
+                                                <li>1 · Date de alta gratis y anuncia tus servicios</li>
+                                                <li>2 · Activa un Plan de empresa</li>
+                                                <li>3 · Compra las solicitudes que más te interesen</li>
+                                                <li>4 · Contacta con los clientes y consigue nuevos trabajos</li>
+                                            </ul>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="clearfix"></div>
+                            </section>
+                            <section class="bg-black-4 py-5">
+                                <div class="container">
+                                    <header class="text-center">
+                                        <h2>Solicitudes de
+                                            <span class="text-primary">Presupuesto</span>
+                                        </h2>
+                                        <div class="row">
+                                            <div class="col-lg-8 mx-auto">
+                                                <p class="template-text">¿Cómo funcionan las solicitudes de presupuesto?</p>
+                                            </div>
+                                        </div>
+                                    </header>
+                                    <div class="card-deck-wrapper">
+                                        <div class="card-deck">
+                                            <div class="card rounded-0 bg-dark">
+                                                <img class="card-img-top icon" src="assets/images/mailout.svg" alt="...">
+                                                <div class="card-body">
+                                                    <h5 class="card-title text-white">1. Te enviamos oportunidades de negocio</h5>
+                                                    <p class="card-text">Los clientes llenan un formulario con los detalles del servicio que necesitan.
+                                                        Las solicitudes se publican en la plataforma y te enviamos un email
+                                                        de aviso cuando se publican las que se ajustan a tu perfil.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="card rounded-0 bg-dark">
+                                                <img class="card-img-top icon" src="assets/images/job.svg" alt="...">
+                                                <div class="card-body">
+                                                    <h5 class="card-title text-white">2. Selecciona las solicitudes que te interesan</h5>
+                                                    <p class="card-text">Una vez que obtengas tus tokens podrás adquirir las solicitudes que te
+                                                        interesen. Adquiriendo un plan podras hacer que tu empresa se destaque
+                                                        en las busquedas.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="card rounded-0 bg-dark">
+                                                <img class="card-img-top icon" src="assets/images/customers.svg" alt="...">
+                                                <div class="card-body">
+                                                    <h5 class="card-title text-white">3. Contacta con los clientes y consigue nuevos trabajos</h5>
+                                                    <p class="card-text">Al comprar una solicitud accedes a los datos del cliente para contactar
+                                                        directamente sin intermediarios. Consigue nuevos trabajos. No cobramos
+                                                        comisiones sobre los trabajos que consigues.</p>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
                         </div>
                     </div>
                 </div>
@@ -68,7 +248,7 @@
     </div>
     <!-- Javascript files-->
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script src="assets/js/ob-load.js"></script>
+    <script src="assets/js/ob-load-user.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
     <script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/vendor/jquery.cookie/jquery.cookie.js"></script>

@@ -309,7 +309,6 @@ i[class*='icon-'] {
     font-size: 0.95rem;
 }
 
-
 /*
 * ==========================================================
 *     NAVBAR
@@ -552,7 +551,6 @@ nav.navbar .tasks-list .progress {
     background: #444951;
 }
 
-
 /* Navbar dropdown effect */
 
 nav.navbar .dropdown .dropdown-menu {
@@ -566,7 +564,6 @@ nav.navbar .dropdown .dropdown-menu.active {
     -webkit-transform: translateY(0);
     transform: translateY(0);
 }
-
 
 /* Navbar Media Query ----------------------------------- */
 
@@ -631,7 +628,6 @@ nav.navbar .dropdown .dropdown-menu.active {
         font-size: 0.6rem;
     }
 }
-
 
 /*
 * ==========================================================
@@ -833,7 +829,6 @@ nav#sidebar.shrinked a[aria-expanded="true"]::after {
     content: '\f106';
 }
 
-
 /* Sidebar Media Query ----------------------------------- */
 
 @media (max-width: 1199px) {
@@ -896,13 +891,11 @@ nav#sidebar.shrinked a[aria-expanded="true"]::after {
     }
 }
 
-
 /*
 * ==========================================================
 *     STATISTICS SECTION
 * ==========================================================
 */
-
 
 /* Statistic Block */
 
@@ -952,13 +945,11 @@ nav#sidebar.shrinked a[aria-expanded="true"]::after {
     font-size: 2.2rem;
 }
 
-
 /*
 * ==========================================================
 *     CARDS SECTION
 * ==========================================================
 */
-
 
 /* Scans Block */
 
@@ -1023,7 +1014,6 @@ nav#sidebar.shrinked a[aria-expanded="true"]::after {
     color: #28a745;
 }
 
-
 /* Scans Block Media Query ------------------ */
 
 @media (max-width: 991px) {
@@ -1031,7 +1021,6 @@ nav#sidebar.shrinked a[aria-expanded="true"]::after {
         display: none;
     }
 }
-
 
 /* Requests Block */
 
@@ -1107,7 +1096,6 @@ nav#sidebar.shrinked a[aria-expanded="true"]::after {
     font-weight: 700;
 }
 
-
 /* Requests Block Media Query ------------------ */
 
 @media (max-width: 991px) {
@@ -1116,13 +1104,11 @@ nav#sidebar.shrinked a[aria-expanded="true"]::after {
     }
 }
 
-
 /*
 * ==========================================================
 *     USERS SECTION
 * ==========================================================
 */
-
 
 /* user block */
 
@@ -1190,7 +1176,6 @@ nav#sidebar.shrinked a[aria-expanded="true"]::after {
     margin-top: 10px;
 }
 
-
 /* Public user Block */
 
 .public-user-block .avatar {
@@ -1251,7 +1236,6 @@ nav#sidebar.shrinked a[aria-expanded="true"]::after {
     color: #8a8d93;
 }
 
-
 /* Public users Block Media Query ------------------ */
 
 @media (max-width: 991px) {
@@ -1263,13 +1247,11 @@ nav#sidebar.shrinked a[aria-expanded="true"]::after {
     }
 }
 
-
 /*
 * ==========================================================
 *     SALES SECTION
 * ==========================================================
 */
-
 
 /* Sale Block */
 
@@ -1310,7 +1292,6 @@ nav#sidebar.shrinked a[aria-expanded="true"]::after {
     font-weight: 300;
 }
 
-
 /* Sales Difference Block */
 
 .stats-with-chart-1 {
@@ -1335,7 +1316,6 @@ nav#sidebar.shrinked a[aria-expanded="true"]::after {
     font-weight: 300;
 }
 
-
 /* Sales Difference Block Media Query ------------------ */
 
 @media (max-width: 991px) {
@@ -1344,13 +1324,11 @@ nav#sidebar.shrinked a[aria-expanded="true"]::after {
     }
 }
 
-
 /*
 * ==========================================================
 *     FEEDS SECTION
 * ==========================================================
 */
-
 
 /* Checklist Media Query */
 
@@ -1385,7 +1363,6 @@ nav#sidebar.shrinked a[aria-expanded="true"]::after {
 .checklist-block input:checked+label {
     text-decoration: line-through;
 }
-
 
 /* Messages Media Query */
 
@@ -1469,13 +1446,11 @@ nav#sidebar.shrinked a[aria-expanded="true"]::after {
     color: #70737a;
 }
 
-
 /*
 * ==========================================================
 *     CHARTS SECTION [CHARTS PAGE]
 * ==========================================================
 */
-
 
 /* Chart Block */
 
@@ -1491,7 +1466,6 @@ nav#sidebar.shrinked a[aria-expanded="true"]::after {
     font-weight: 300;
     font-size: 0.95rem;
 }
-
 
 /*
 * ==========================================================
@@ -1531,7 +1505,6 @@ nav#sidebar.shrinked a[aria-expanded="true"]::after {
     }
 }
 
-
 /*
 * ==========================================================
 *     LOGIN PAGE
@@ -1548,7 +1521,7 @@ nav#sidebar.shrinked a[aria-expanded="true"]::after {
     height: 100%;
     display: block;
     z-index: -1;
-    background: url(../img/bg.jpeg);
+    background: url(../images/bg.jpg);
     background-size: cover;
     position: absolute;
     top: 0;
@@ -1580,7 +1553,7 @@ nav#sidebar.shrinked a[aria-expanded="true"]::after {
 }
 
 .login-page .form-holder .info {
-    background: rgba(219, 101, 116, 0.95);
+    background: rgba(71, 23, 246, 0.95);
     color: #fff;
 }
 
@@ -1909,7 +1882,6 @@ select {
     font-size: 1.25rem;
 }
 
-
 /*
 
 =====================
@@ -1941,11 +1913,9 @@ STYLE SWITCHER FOR DEMO
     color: #495057;
 }
 
-
 /* =========================================
    THEMING OF BOOTSTRAP COMPONENTS
    ========================================= */
-
 
 /*
  * 1. NAVBAR
@@ -2054,7 +2024,6 @@ STYLE SWITCHER FOR DEMO
 .navbar-dark .navbar-text {
     color: rgba(255, 255, 255, 0.5);
 }
-
 
 /*
  * 2. BUTTONS
@@ -2774,7 +2743,6 @@ a.text-primary:hover {
     color: #531d68 !important;
 }
 
-
 /*
  * 4. PAGINATION
  */
@@ -2848,7 +2816,6 @@ a.text-primary:hover {
     border-top-right-radius: 0.2rem;
     border-bottom-right-radius: 0.2rem;
 }
-
 
 /*
 * 5. UTILITIES
@@ -3088,4 +3055,64 @@ a.text-dark:hover {
     background: #fff;
     -webkit-box-shadow: 0 0 2px #aaa, 0 2px 5px #999;
     box-shadow: 0 0 2px #aaa, 0 2px 5px #999;
+}
+
+/*
+*  7. Custom checkbox
+*/
+
+.custom-control.material-checkbox {
+    --color: #4717f6;
+}
+
+.custom-control.material-checkbox .material-control-input {
+    display: none;
+}
+
+.custom-control.material-checkbox .material-control-input:checked~.material-control-indicator {
+    border-color: var(--color);
+    -webkit-transform: rotateZ(45deg) translate(1px, -5px);
+    transform: rotateZ(45deg) translate(1px, -5px);
+    width: 10px;
+    border-top: 0px solid #fff;
+    border-left: 0px solid #fff;
+}
+
+.custom-control.material-checkbox .material-control-indicator {
+    display: inline-block;
+    position: absolute;
+    top: 4px;
+    left: 0;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #aaa;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+/*
+*  Custom
+*/
+
+.icon {
+    max-height: 90px;
+    margin: 35px 0px 15px 0px;
+}
+
+hr.line {
+    border-color: #8a8d93;
+}
+
+.ob-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: #999;
+}
+
+.bg-recover {
+    background: #22252a;
+    color: #aaa;
+    width: 100%;
+    max-width: 400px;
 }

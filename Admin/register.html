@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Servicios</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="all,follow">
+  <!-- Bootstrap CSS-->
+  <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
+  <!-- Custom Font Icons CSS-->
+  <link rel="stylesheet" href="assets/styles/font.css">
+  <!-- Google fonts - Muli-->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli:300,400,700">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <!-- theme stylesheet-->
+  <link rel="stylesheet" href="assets/styles/style.css" id="theme-stylesheet">
+  <!-- Custom stylesheet - for your changes-->
+  <link rel="stylesheet" href="assets/styles/custom.css">
+  <!-- Favicon-->
+  <link rel="shortcut icon" href="assets/images/favicon.ico">
+  <!-- Font Awesome CSS-->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  <!-- Tweaks for older IEs-->
+  <!--[if lt IE 9]>
+              <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+              <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+</head>
+
+<body>
+  <div class="login-page">
+    <div class="container d-flex align-items-center">
+      <div class="form-holder has-shadow">
+        <div class="row">
+          <!-- Logo & Information Panel-->
+          <div class="col-lg-6">
+            <div class="info d-flex align-items-center">
+              <div class="content">
+                <div class="logo">
+                  <h1>Dashboard</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Form Panel    -->
+          <div class="col-lg-6 bg-white">
+            <div class="form d-flex align-items-center">
+              <div class="content">
+                <form id="register-form">
+                  <div class="form-group">
+                    <input id="register-username" type="text" name="registerUsername" required class="input-material">
+                    <label for="register-username" class="label-material">Nombre completo</label>
+                  </div>
+                  <div class="form-group">
+                    <input id="register-email" type="email" name="registerEmail" required class="input-material">
+                    <label for="register-email" class="label-material">Email</label>
+                  </div>
+                  <div class="form-group">
+                    <input id="register-passowrd" type="password" name="registerPassword" required class="input-material">
+                    <label for="register-passowrd" class="label-material">Password</label>
+                  </div>
+                  <div class="form-group terms-conditions">
+                    <label class="custom-control material-checkbox" for="terms">
+                      <input type="checkbox" class="material-control-input" name="terms" id="terms">
+                      <span class="material-control-indicator"></span>
+                      <span class="material-control-description">Acepto los
+                        <a href="#">Términos y Condiciones</a>
+                      </span>
+                    </label>
+                  </div>
+                  <input id="register" type="submit" value="Register" class="btn btn-primary">
+                </form>
+                <small>¿Ya estas registrado? </small>
+                <a href="login.html" class="signup"> Login</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copyrights text-center">
+      <p>Developed by
+        <a href="https://www.orangebits.com.mx" class="external">OrangeBits</a>
+      </p>
+    </div>
+  </div>
+  <!-- Javascript files-->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/vendor/jquery.cookie/jquery.cookie.js"></script>
+  <script src="assets/js/front.js"></script>
+</body>
+
+</html>
