@@ -154,7 +154,7 @@ input {
     margin-bottom: 30px;
 }
 
-.dropdown-menu {
+/*.dropdown-menu {
     border-radius: 0;
     border: 0;
     -webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1), -1px -1px 2px rgba(0, 0, 0, 0.1);
@@ -166,7 +166,7 @@ input {
     background: #2d3035;
     left: auto;
     right: 0;
-}
+}*/
 
 .dropdown-menu a {
     color: inherit;
@@ -174,11 +174,14 @@ input {
 
 .dropdown-menu a:hover {
     background: #4717f6;
-    color: #fff;
+    color: #fff !important;
 }
 
 .dropdown-menu a {
-    padding: 10px 20px;
+    padding: 10px 15px !important;
+    /*color: #333;*/
+    font-size: 0.9rem;
+    text-transform: none !important;
 }
 
 .dropdown-toggle {
@@ -204,25 +207,14 @@ i[class*='icon-'] {
     transform: translateY(2px);
 }
 
-.dropdown-menu {
+/*.dropdown-menu {
     border-radius: 0;
     padding: 0;
     margin-top: 21px;
     border: 1px solid #393c43;
     -webkit-box-shadow: 0 0 10px rgba(34, 37, 42, 0.95);
     box-shadow: 0 0 10px rgba(34, 37, 42, 0.95);
-}
-
-.dropdown-menu a {
-    padding: 10px 15px !important;
-    color: #333;
-    font-size: 0.9rem;
-    text-transform: none !important;
-}
-
-.dropdown-menu a:hover {
-    color: #fff !important;
-}
+}*/
 
 .dropdown-menu a:active {
     background-color: #fff;
@@ -2251,7 +2243,7 @@ STYLE SWITCHER FOR DEMO
 }
 
 .btn-light:hover {
-    color: #111;
+    /*color: #111;*/
     background-color: #e2e6ea;
     border-color: #dae0e5;
 }
@@ -3091,6 +3083,100 @@ a.text-dark:hover {
 }
 
 /*
+*  Multiselect
+*/
+
+.ms-container {
+    background: transparent url("../images/arrows.svg") no-repeat 50% 50%;
+    width: 370px
+}
+
+.ms-container:after {
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    font-size: 0;
+    clear: both;
+    min-height: 0;
+    visibility: hidden
+}
+
+.ms-container .ms-selectable,
+.ms-container .ms-selection {
+    color: #555555;
+    float: left;
+    width: 45%
+}
+
+.ms-container .ms-selection {
+    float: right
+}
+
+.ms-container .ms-list {
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-transition: border linear 0.2s, -webkit-box-shadow linear 0.2s;
+    transition: border linear 0.2s, -webkit-box-shadow linear 0.2s;
+    transition: border linear 0.2s, box-shadow linear 0.2s;
+    transition: border linear 0.2s, box-shadow linear 0.2s, -webkit-box-shadow linear 0.2s;
+    border: 1px solid #8a8d93;
+    border-radius: 3px;
+    position: relative;
+    height: 200px;
+    padding: 0;
+    overflow-y: auto
+}
+
+.ms-container .ms-list.ms-focus {
+    border-color: rgba(162, 57, 202, 0.8)
+}
+
+.ms-container ul {
+    margin: 0;
+    list-style-type: none;
+    padding: 0
+}
+
+.ms-container .ms-optgroup-container {
+    width: 100%
+}
+
+.ms-container .ms-optgroup-label {
+    margin: 0;
+    padding: 5px 0px 0px 5px;
+    cursor: pointer;
+    color: #999
+}
+
+.ms-container .ms-selectable li.ms-elem-selectable,
+.ms-container .ms-selection li.ms-elem-selection {
+    padding: 5px 10px;
+    color: #8a8d93;
+    font-size: 14px
+}
+
+.ms-container .ms-selectable li.ms-hover,
+.ms-container .ms-selection li.ms-hover {
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+    background-color: #4717f6
+}
+
+.ms-container .ms-selectable li.disabled,
+.ms-container .ms-selection li.disabled {
+    color: #aaa;
+    cursor: text
+}
+
+/*
+*  Summernote
+*/
+
+
+
+/*
 *  Custom
 */
 
@@ -3115,4 +3201,297 @@ hr.line {
     color: #aaa;
     width: 100%;
     max-width: 400px;
+}
+
+
+/* Card */
+
+.ob-card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0px;
+    word-wrap: break-word;
+    background-color: #2d3035;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: 0;
+    margin-bottom: 30px;
+    color: #8a8d93;
+}
+
+.ob-card-header {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.03);
+    border-bottom: 1px solid rgba(0, 0, 0, .125);
+}
+
+.ob-card-header h6 {
+    margin-bottom: 0rem;
+}
+
+.ob-card-header small {
+    font-size: 80%;
+    font-weight: normal;
+    line-height: 0.5rem;
+}
+
+.ob-card-header .dropdown-menu {
+    margin-top: 0px;
+}
+
+.ob-card-header .dropdown-menu a {
+    color: #8a8d93;
+}
+
+.ob-card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 0.5rem 1.25rem;
+}
+
+.ob-card-footer {
+    padding: .75rem 1.25rem;
+    background-color: rgba(0, 0, 0, 0.03);
+    border-top: 1px solid rgba(0, 0, 0, .125);
+}
+
+.ob-card-footer .center {
+    margin: auto 0;
+}
+
+.ob-card-title {
+    margin-bottom: 0.75rem;
+}
+
+:last-child.ob-card-text {
+    margin-bottom: 0px;
+}
+
+.ob-badge-circle {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    font-size: 25px;
+    color: #ffffff;
+    line-height: 25px;
+    text-align: center;
+    background: #4717f6
+}
+
+.ob-card-footer .ob-badge-circle {
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 15px;
+}
+
+.ob-customer-info .ob-badge-circle {
+    width: 45px;
+    height: 45px;
+    line-height: 47px;
+    font-size: 30px;
+}
+
+.ob-nav-link {
+    display: block;
+    padding: .5rem 0;
+    color: #8a8d93;
+    width: 15px;
+    text-align: center;
+}
+
+.ob-text-limit {
+    height: 50px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/*----- Pricing table -----*/
+
+.my_planHeader {
+    text-align: center;
+    color: white;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+}
+
+.my_planTitle {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.my_planPrice {
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.my_planDuration {
+    margin-top: -0.6em;
+}
+
+@media (max-width: 768px) {
+    .my_planTitle {
+        font-size: small;
+    }
+}
+
+/* --- Features ------------------------- */
+
+.my_feature {
+    line-height: 2.8em;
+    color: whitesmoke;
+    background-color: rgba(255, 255, 255, 0.171);
+}
+
+@media (max-width: 768px) {
+    .my_feature {
+        text-align: center
+    }
+}
+
+.my_featureRow {
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+    border: 0.1em solid rgba(0, 0, 0, 0.03);
+}
+
+/* --- Plan 1 --------------------------- */
+
+.my_plan1 {
+    background: rgb(255, 202, 202);
+}
+
+.my_planHeader.my_plan1 a {
+    background: rgba(0, 0, 0, 0.450);
+    color: white;
+}
+
+.my_planHeader.my_plan1 {
+    background: rgb(255, 25, 25);
+    border-bottom: thick solid rgba(0, 0, 0, 0.450);
+}
+
+/* --- Plan 2 --------------------------- */
+
+.my_plan2 {
+    background: rgb(198, 250, 255);
+}
+
+.my_planHeader.my_plan2 a {
+    background: rgba(0, 0, 0, 0.450);
+    color: white;
+}
+
+.my_planHeader.my_plan2 {
+    background: rgb(35, 188, 201);
+    border-bottom: thick solid rgba(0, 0, 0, 0.450);
+}
+
+/* --- Plan 3 ---------------------------*/
+
+.my_plan3 {
+    background: rgb(244, 209, 255);
+}
+
+.my_planHeader.my_plan3 a {
+    background: rgba(0, 0, 0, 0.450);
+    color: white;
+}
+
+.my_planHeader.my_plan3 {
+    background: rgb(122, 72, 137);
+    border-bottom: thick solid rgba(0, 0, 0, 0.450);
+}
+
+.my_planFeature {
+    text-align: center;
+    font-size: 2em;
+}
+
+.my_planFeature i.my_check {
+    color: green;
+}
+
+/*----- Avatar -----*/
+
+.ob-nav-avatar {
+    max-height: 35px;
+}
+
+/*----- General -----*/
+
+.grey-text {
+    color: #8a8d93;
+}
+
+.white-text {
+    color: rgb(255, 255, 255);
+}
+
+.line-separator {
+    height: 0px;
+    margin: .5rem 0;
+    overflow: hidden;
+    border-top: 1px solid #454649;
+}
+
+.img-opacity {
+    -webkit-filter: opacity(.6);
+    filter: opacity(.6);
+}
+
+/*business block*/
+
+nav.navbar .business a {
+    padding: 15px !important;
+}
+
+nav.navbar .business strong {
+    margin-bottom: 0px;
+}
+
+nav.navbar .dropdown-item.business {
+    color: #8a8d93;
+    text-decoration: none;
+}
+
+/*nav.navbar .dropdown-item.business:hover {
+background: #282b2f;
+}*/
+
+nav.navbar .dropdown-item.business .profile {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 15px;
+    position: relative;
+}
+
+nav.navbar .dropdown-item.business .profile img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+nav.navbar .dropdown-item.business .profile .status {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    position: absolute;
+    top: 2px;
+    right: 2px;
+}
+
+nav.navbar .dropdown-item.business .profile .status.active {
+    background: #28a745;
+}
+
+nav.navbar .dropdown-item.business .profile .status.inactive {
+    background: #999;
 }

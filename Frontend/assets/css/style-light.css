@@ -523,7 +523,7 @@ border: none !important;
 
 .swiper-pagination-bullet,
 .swiper-pagination-bullet-active {
-  background: #ddd;
+  background: #000;
   width: 12px;
   height: 12px;
 }
@@ -1010,7 +1010,7 @@ nav.navbar .navbar-toggler.active span:nth-of-type(2) {
 */
 .hero-section {
   padding: 0;
-  color: #000;
+  color: #ccc;
 }
 
 .hero-section .hero-content {
@@ -1687,7 +1687,7 @@ footer.footer .copyrights a {
   height: 40px;
   line-height: 40px;
   text-align: center;
-  color: #000;
+  color: #fff;
   position: fixed;
   right: 30px;
   bottom: 30px;

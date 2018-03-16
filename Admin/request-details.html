@@ -12,12 +12,14 @@
     <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
     <!-- Custom Font Icons CSS-->
     <link rel="stylesheet" href="assets/styles/font.css">
+    <!-- Summernote-->
+    <link rel="stylesheet" href="assets/vendor/summernote/summernote-bs4.css">
     <!-- Google fonts - Muli-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli:300,400,700">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <!-- theme stylesheet-->
     <link rel="stylesheet" href="assets/styles/style.css" id="theme-stylesheet">
-    <!-- Custom stylesheet - for your changes-->
+    <!-- Custom stylesheet-->
     <link rel="stylesheet" href="assets/styles/custom.css">
     <!-- Favicon-->
     <link rel="shortcut icon" href="assets/images/favicon.ico">
@@ -151,14 +153,14 @@
                                         </select>
                                     </div>
                                     <div class="form-group">
-                                        <label for="notes">Notas*</label>
-                                        <textarea class="form-control" id="notes" rows="3"></textarea>
-                                        <small>*Lo que se escríbe aquí es solo para uso interno.</small>
+                                        <label for="notes">Notas</label>
+                                       <textarea class="form-control summernote" name="notes"></textarea>
+                                        <small>*Lo que se escribe aquí es solo para uso interno.</small>
                                     </div>
                                 </div>
                                 <div class="ob-card-footer">
                                     <div class="">
-                                        <input type="button" class="btn btn-gradient float-right" data-toggle="modal" data-target="#saveModal" value="Guardar">
+                                        <input type="button" class="btn btn-gradient float-right" value="Guardar">
                                     </div>
                                 </div>
                             </div>
@@ -185,25 +187,6 @@
                         </div>
                     </div>
                 </div>
-                <!-- Modal Guardar-->
-                <div class="modal fade grey-text" id="saveModal" tabindex="-1" role="dialog" aria-labelledby="saveModal" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="Title">Guardar Solicitud</h5>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-                            </div>
-                            <div class="modal-body">
-                                <p>Aqui se va a mostrar la confirmacion si se guardo exitosamente o si hubo algun error</p>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-gradient">Guardar</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </section>
         </div>
         <!-- /contenido -->
@@ -217,6 +200,16 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
     <script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/vendor/jquery.cookie/jquery.cookie.js"></script>
+    <script src="assets/vendor/summernote/summernote-bs4.min.js"></script>
+    <script src="assets/vendor/summernote/summernote-es-ES.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.summernote').summernote({
+                 height: 300,
+            lang: 'es-ES' // default: 'en-US'
+            });
+        });
+    </script>
     <script src="assets/js/front.js"></script>
 </body>
 

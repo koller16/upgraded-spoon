@@ -41,69 +41,60 @@
         <div class="page-content">
             <div class="page-header">
                 <div class="container-fluid">
-                    <h2 class="h5 no-margin-bottom">Servicios y Zonas</h2>
+                    <h2 class="h5 no-margin-bottom">Configuración de Zonas y Servicios</h2>
                 </div>
             </div>
-            <section class="no-padding-top no-padding-bottom">
+            <section class="no-padding-bottom">
                 <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="ob-card">
-                                <div class="ob-card-header">
-                                    <div class="progress-details d-flex align-items-end justify-content-between">
-                                        <div>
-                                            <h6 class="">Configuración de Zonas y Servicios</h6>
-                                        </div>
-                                    </div>
+                    <div>
+                        <div class="">
+                            <div class="block">
+                                <div class="title">
+                                    <strong class="d-block">Categorías</strong>
                                 </div>
-                                <div class="ob-card-body">
-                                    <h5 class="ob-card-title">Categorías</h5>
-                                    <div class="row">
-                                        <div class="col-md-6 col-lg-4 select">
-                                            <label for="category">Categoría Principal</label>
-                                            <select name="categories" id="category" class="form-control">
-                                                <option>Catering y servicios relacionados</option>
-                                                <option>Fotografía y video</option>
-                                                <option>Músicos, cantantes y grupos</option>
-                                                <option>Servicios para bodas</option>
-                                                <option>Animaciones y fiestas infantiles</option>
-                                            </select>
-                                        </div>
-                                        <div class="col-md-6 col-lg-8">
-                                            <label for="category">Subcategorias</label>
-                                            <div class="form-group">
-                                                <div class="row">
-                                                    <label class="checkbox-inline col-sm-6 col-lg-4">
-                                                        <input id="inlineCheckbox1" type="checkbox" value="option1"> Nombre Titul
-                                                    </label>
-                                                    <label class="checkbox-inline col-sm-6 col-lg-4">
-                                                        <input id="inlineCheckbox2" type="checkbox" value="option2"> Nombre Titulo
-                                                    </label>
-                                                    <label class="checkbox-inline col-sm-6 col-lg-4">
-                                                        <input id="inlineCheckbox3" type="checkbox" value="option3"> Nombre
-                                                    </label>
-                                                    <label class="checkbox-inline col-sm-6 col-lg-4">
-                                                        <input id="inlineCheckbox1" type="checkbox" value="option1"> Nombre Titulo Nombre
-                                                    </label>
-                                                    <label class="checkbox-inline col-sm-6 col-lg-4">
-                                                        <input id="inlineCheckbox2" type="checkbox" value="option2"> Nombre Tit
-                                                    </label>
-                                                    <label class="checkbox-inline col-sm-6 col-lg-4">
-                                                        <input id="inlineCheckbox3" type="checkbox" value="option3"> Nombre Nombre Titulo Nombre
-                                                    </label>
-                                                    <label class="checkbox-inline col-sm-6 col-lg-4">
-                                                        <input id="inlineCheckbox2" type="checkbox" value="option2"> Nombre Titulo
-                                                    </label>
-                                                    <label class="checkbox-inline col-sm-6 col-lg-4">
-                                                        <input id="inlineCheckbox3" type="checkbox" value="option3"> Nombre Titulo Nombre
-                                                    </label>
-                                                    <label class="checkbox-inline col-sm-6 col-lg-4">
-                                                        <input id="inlineCheckbox1" type="checkbox" value="option1"> Nombre
-                                                    </label>
+                                <div class="block-body">
+                                    <form>
+                                        <div class="row">
+                                            <div class="form-group col-md-6">
+                                                <label for="category">Categoría Principal</label>
+                                                <div class="">
+                                                    <div class="form-group">
+                                                        <select id="category" multiple="multiple" name="category[]">
+                                                            <option value="categoria1" selected>Categoria 1</option>
+                                                            <option value="categoria2">Categoria 2</option>
+                                                            <option value="categoria3">Categoria 3</option>
+                                                            <option value="categoria4">Categoria 4</option>
+                                                            <option value="categoria5">Categoria 5</option>
+                                                            <option value="categoria6">Categoria 6</option>
+                                                            <option value="categoria7">Categoria 7</option>
+                                                            <option value="categoria8">Categoria 8</option>
+                                                            <option value="categoria9">Categoria 9</option>
+                                                            <option value="categoria10">Categoria 10</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-group col-md-6">
+                                                <label for="category">Sub Categorias</label>
+                                                <div class="">
+                                                    <div class="form-group">
+                                                        <select id="subcat" multiple="multiple" name="subcat[]">
+                                                            <option value="subcat1" selected>Subcategoria 1</option>
+                                                            <option value="subcat2">Subcategoria 2</option>
+                                                            <option value="subcat3">Subcategoria 3</option>
+                                                            <option value="subcat4" selected>Subcategoria 4</option>
+                                                            <option value="subcat5">Subcategoria 5</option>
+                                                            <option value="subcat6">Subcategoria 6</option>
+                                                            <option value="subcat7">Subcategoria 7</option>
+                                                            <option value="subcat8">Subcategoria 8</option>
+                                                            <option value="subcat9">Subcategoria 9</option>
+                                                            <option value="subcat10">Subcategoria 10</option>
+                                                        </select>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-md-6 col-lg-4">
+                                        <div class="col-md-6">
                                             <label for="primary-subcategory">Subcategoría Principal</label>
                                             <select name="categories" id="primary-subcategory" class="form-control">
                                                 <option>Subcategoría 1</option>
@@ -113,48 +104,43 @@
                                                 <option>Subcategoría 5</option>
                                             </select>
                                         </div>
-                                    </div>
-                                    <div class="line-separator"></div>
-                                    <h5 class="ob-card-title">Zonas de Servicio</h5>
-                                    <div class="select">
-                                        <label for="category">Seleccione las zonas en las que ofrece sus servicios (cuidades)</label>
-                                        <div class="form-group">
-                                            <div class="row">
-                                                <label class="checkbox-inline col-sm-6 col-md-4 col-lg-3">
-                                                    <input id="inlineCheckbox1" type="checkbox" value="option1"> Mexico
-                                                </label>
-                                                <label class="checkbox-inline col-sm-6 col-md-4 col-lg-3">
-                                                    <input id="inlineCheckbox2" type="checkbox" value="option2"> Cancun
-                                                </label>
-                                                <label class="checkbox-inline col-sm-6 col-md-4 col-lg-3">
-                                                    <input id="inlineCheckbox3" type="checkbox" value="option3"> Juarez
-                                                </label>
-                                                <label class="checkbox-inline col-sm-6 col-md-4 col-lg-3">
-                                                    <input id="inlineCheckbox4" type="checkbox" value="option4"> Oaxaca
-                                                </label>
-                                                <label class="checkbox-inline col-sm-6 col-md-4 col-lg-3">
-                                                    <input id="inlineCheckbox5" type="checkbox" value="option5"> Cancun
-                                                </label>
-                                                <label class="checkbox-inline col-sm-6 col-md-4 col-lg-3">
-                                                    <input id="inlineCheckbox6" type="checkbox" value="option6"> Merida
-                                                </label>
-                                                <label class="checkbox-inline col-sm-6 col-md-4 col-lg-3">
-                                                    <input id="inlineCheckbox7" type="checkbox" value="option7"> Veracruz
-                                                </label>
-                                                <label class="checkbox-inline col-sm-6 col-md-4 col-lg-3">
-                                                    <input id="inlineCheckbox8" type="checkbox" value="option8"> Morelia
-                                                </label>
-                                                <label class="checkbox-inline col-sm-6 col-md-4 col-lg-3">
-                                                    <input id="inlineCheckbox9" type="checkbox" value="option9"> Campeche
-                                                </label>
+                                        <div class="form-group clearfix">
+                                            <input class="btn btn-gradient float-right" type="submit" value="Guardar">
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="">
+                            <div class="block">
+                                <div class="title">
+                                    <strong class="d-block">Zonas de Servicio</strong>
+                                </div>
+                                <div class="block-body">
+                                    <form>
+                                        <div class="select">
+                                            <label for="category">Seleccione las zonas en las que ofrece sus servicios (cuidades)</label>
+                                            <div class="form-group">
+                                                <div class="">
+                                                    <div class="form-group">
+                                                        <select id="zones" multiple="multiple" name="zones[]">
+                                                            <option value="mexico" selected>México</option>
+                                                            <option value="cancun">Cancún</option>
+                                                            <option value="juarez">Juárez</option>
+                                                            <option value="oaxaca" selected>Oaxaca</option>
+                                                            <option value="merida">Mérida</option>
+                                                            <option value="varacruz">Veracruz</option>
+                                                            <option value="morelia">Morelia</option>
+                                                            <option value="campeche">Campeche</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                </div>
-                                <div class="ob-card-footer">
-                                    <div class="">
-                                        <input type="button" class="btn btn-gradient float-right" data-toggle="modal" data-target="#saveModal" value="Guardar">
-                                    </div>
+                                        <div class="form-group clearfix">
+                                            <input class="btn btn-gradient float-right" type="submit" value="Guardar">
+                                        </div>
+                                    </form>
                                 </div>
                             </div>
                         </div>
@@ -174,6 +160,13 @@
     <script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/vendor/jquery.cookie/jquery.cookie.js"></script>
     <script src="assets/js/front.js"></script>
+    <script src="assets/vendor/multiselect/jquery.multi-select.js"></script>
+    <script type="text/javascript">
+        // run pre selected options
+        $('#category').multiSelect();
+        $('#subcat').multiSelect();
+        $('#zones').multiSelect();
+    </script>
 </body>
 
 </html>
